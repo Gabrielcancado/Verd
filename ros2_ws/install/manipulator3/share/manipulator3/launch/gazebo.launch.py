@@ -1,75 +1,45 @@
-from launch.actions import LogInfo
-from launch_ros.actions import Node
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription
-from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.substitutions import PathJoinSubstitution
-from launch_ros.substitutions import FindPackageShare
+from launch_ros.actions import Node
+from launch.actions import ExecuteProcess
 import os
-import xacro
+from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
-    # Define o diretório do pacote
-    share_dir = FindPackageShare('robot_description').find('robot_description')
+    # Diretório do modelo URDF/Xacro
+    urdf_file = os.path.join(
+        get_package_share_directory('manipulator3'),
+        'urdf',
+        'manipulator3_gazebo.xacro'
+    )
 
-    # Processa o arquivo Xacro para gerar o modelo URDF do robô
-    xacro_file = os.path.join(share_dir, 'urdf', 'robot_description.xacro')
-    robot_description_config = xacro.process_file(xacro_file)
-    robot_urdf = robot_description_config.toxml()  
+    # Converte o modelo Xacro para URDF
+    with open(urdf_file, 'r') as file:
+        robot_description_content = file.read()
 
-    # Publica o robot_description como um tópico
-    robot_state_publisher_node = Node(
+    # Nó para o Gazebo
+    gazebo = ExecuteProcess(
+        cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_factory.so'],
+        output='screen'
+    )
+
+    # Publica o modelo no parâmetro 'robot_description'
+    robot_state_publisher = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
-        name='robot_state_publisher',
-        parameters=[{'robot_description': robot_urdf}],  # Publica o URDF
+        output='screen',
+        parameters=[{'robot_description': robot_description_content}]
+    )
+
+    # Publica o estado dos joints
+    joint_state_publisher_gui = Node(
+        package='joint_state_publisher_gui',
+        executable='joint_state_publisher_gui',
+        name='joint_state_publisher_gui',
         output='screen'
     )
 
-    # Publica os estados das juntas
-    joint_state_publisher_node = Node(
-        package='joint_state_publisher',
-        executable='joint_state_publisher',
-        name='joint_state_publisher',
-        output='screen'
-    )
-
-    # Inicia o servidor Gazebo
-    gazebo_server = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([
-            PathJoinSubstitution([
-                FindPackageShare('gazebo_ros'),
-                'launch',
-                'gzserver.launch.py'
-            ])
-        ]),
-        launch_arguments={'pause': 'true'}.items()
-    )
-
-    # Inicia o cliente Gazebo
-    gazebo_client = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([
-            PathJoinSubstitution([
-                FindPackageShare('gazebo_ros'),
-                'launch',
-                'gzclient.launch.py'
-            ])
-        ])
-    )
-
-    # Configuração para spawnar o robô no ambiente Gazebo
-    urdf_spawn_node = Node(
-        package='gazebo_ros',
-        executable='spawn_entity.py',
-        arguments=['-entity', 'soldador', '-topic', 'robot_description', '-x', '0.0', '-y', '0.0', '-z', '0.5'],       
-        output='screen'
-    )
-
-    # Retorna a descrição do lançamento contendo todos os nós e ações definidos
     return LaunchDescription([
-        robot_state_publisher_node,
-        joint_state_publisher_node,
-        gazebo_server,
-        gazebo_client,
-        urdf_spawn_node,
+        gazebo,
+        robot_state_publisher,
+        joint_state_publisher_gui,
     ])

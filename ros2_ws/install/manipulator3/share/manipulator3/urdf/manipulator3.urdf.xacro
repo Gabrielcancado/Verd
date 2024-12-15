@@ -12,6 +12,11 @@
     <xacro:property name="upper"    value="3.1416" />
     <xacro:property name="effort"   value="1000" />
     <xacro:property name="velocity" value="0.5" />
+    <gazebo>
+        <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+            <robotNamespace>/</robotNamespace>
+        </plugin>
+    </gazebo>
 
     <xacro:macro name="joint_limits">
         <limit
@@ -21,32 +26,7 @@
             upper="${upper}" />
     </xacro:macro>
 
-    <!-- Carregar arquivo YAML -->
-    <xacro:property name="yaml_file" value="$(find manipulator3)/config/link2_inertia.yaml" />
-    <xacro:property name="link2_inertia" value="${xacro.load_yaml(yaml_file)}" />
 
-
-
-    <!-- manipulador description.--> 
-
-    <!-- Link: world-->
-    <link name="world">
-        <visual>
-            <geometry>
-                <box size="0.0 0.0 0.0"/>  
-            </geometry>
-            <origin rpy="0 0 0" xyz="0 0 0"/>
-            <material name="green"/>
-        </visual>    
-    </link>
-
-    <!-- Joint 0: world para vertical1-->
-    <joint name="joint_0" type="fixed">
-        <parent link="world"/>
-        <child link="vertical1"/>
-        <origin xyz="0 0 0.23" 
-                rpy="0 0 0"/>        
-    </joint>
 
     <!-- Link 1: vertical1-->
     <link name="vertical1">
@@ -67,7 +47,7 @@
             </geometry>
             <origin xyz="0 0 0" 
                     rpy="1.5708 0 0" />
-            <material name="green"/>
+            <material name="black"/>
         </visual>
         <collision>
             <origin
@@ -109,7 +89,7 @@
             </geometry>
             <origin xyz="0 0 0" 
                     rpy="1.5708 0 0" />
-            <material name="green"/>
+            <material name="blue"/>
         </visual>
         <collision>
             <origin
@@ -149,7 +129,7 @@
             </geometry>
             <origin xyz="0 0 -35" 
                     rpy="1.5708 0 0" />
-            <material name="red"/>
+            <material name="white"/>
         </visual>
         <collision>
             <origin
@@ -192,7 +172,7 @@
             </geometry>
             <origin xyz="-65 0 -35" 
                     rpy="1.5708 0 0" />
-            <material name="yellow"/>
+            <material name="black"/>
         </visual>
         <collision>
             <origin
@@ -274,7 +254,7 @@
             </geometry>
             <origin xyz="-27 0 0" 
                     rpy="1.5708 0 3.1415" />
-            <material name="cyan"/>
+            <material name="white"/>
         </visual>
         <collision>
             <origin

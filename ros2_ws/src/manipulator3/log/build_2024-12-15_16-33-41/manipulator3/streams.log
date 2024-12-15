@@ -1,0 +1,37 @@
+[0.008s] Invoking command in '/home/ros2_ws/src/manipulator3/build/manipulator3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/src/manipulator3/build/manipulator3 -- -j8 -l8
+[0.036s] Invoked command in '/home/ros2_ws/src/manipulator3/build/manipulator3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/src/manipulator3/build/manipulator3 -- -j8 -l8
+[0.069s] Invoking command in '/home/ros2_ws/src/manipulator3/build/manipulator3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/src/manipulator3/build/manipulator3
+[0.078s] -- Install configuration: ""
+[0.078s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/launch
+[0.078s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/launch/gazebo.launch.py
+[0.079s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/launch/display.py
+[0.079s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/urdf
+[0.079s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/urdf/cores.xacro
+[0.079s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/urdf/manipulator3.urdf.xacro
+[0.079s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/urdf/manipulator3_gazebo.xacro
+[0.079s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/config
+[0.079s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/meshes
+[0.079s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/meshes/vertical2.stl
+[0.079s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/meshes/endeffec.stl
+[0.080s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/meshes/redonda.stl
+[0.080s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/meshes/vertical1.stl
+[0.080s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/meshes/horizontal1.stl
+[0.080s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/meshes/horizontal2.stl
+[0.080s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/rviz2
+[0.080s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/rviz2/display.rviz
+[0.080s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/ament_index/resource_index/package_run_dependencies/manipulator3
+[0.080s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/ament_index/resource_index/parent_prefix_path/manipulator3
+[0.080s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/environment/ament_prefix_path.sh
+[0.080s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/environment/ament_prefix_path.dsv
+[0.080s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/environment/path.sh
+[0.080s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/environment/path.dsv
+[0.080s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/local_setup.bash
+[0.081s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/local_setup.sh
+[0.081s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/local_setup.zsh
+[0.081s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/local_setup.dsv
+[0.081s] -- Installing: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/package.dsv
+[0.081s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/ament_index/resource_index/packages/manipulator3
+[0.081s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/cmake/manipulator3Config.cmake
+[0.081s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/cmake/manipulator3Config-version.cmake
+[0.082s] -- Up-to-date: /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/package.xml
+[0.082s] Invoked command in '/home/ros2_ws/src/manipulator3/build/manipulator3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/src/manipulator3/build/manipulator3

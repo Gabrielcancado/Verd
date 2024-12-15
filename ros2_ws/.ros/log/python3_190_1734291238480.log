@@ -1,0 +1,3 @@
+[INFO] [1734291238.540269073] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+[INFO] [1734291238.550307912] [joint_state_publisher]: Centering
+[INFO] [1734291238.610920695] [joint_state_publisher]: Centering

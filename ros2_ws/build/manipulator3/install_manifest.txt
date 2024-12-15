@@ -2,8 +2,7 @@
 /home/ros2_ws/install/manipulator3/share/manipulator3/launch/display.py
 /home/ros2_ws/install/manipulator3/share/manipulator3/urdf/cores.xacro
 /home/ros2_ws/install/manipulator3/share/manipulator3/urdf/manipulator3.urdf.xacro
-/home/ros2_ws/install/manipulator3/share/manipulator3/config/link2_inertia.yaml
-/home/ros2_ws/install/manipulator3/share/manipulator3/config/controllers.yaml
+/home/ros2_ws/install/manipulator3/share/manipulator3/urdf/manipulator3_gazebo.xacro
 /home/ros2_ws/install/manipulator3/share/manipulator3/meshes/vertical2.stl
 /home/ros2_ws/install/manipulator3/share/manipulator3/meshes/endeffec.stl
 /home/ros2_ws/install/manipulator3/share/manipulator3/meshes/redonda.stl

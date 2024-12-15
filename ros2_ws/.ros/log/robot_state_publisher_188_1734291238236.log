@@ -1,0 +1,8 @@
+[WARN] [1734291238.288882398] [kdl_parser]: The root link vertical1 has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1734291238.288976536] [robot_state_publisher]: got segment endeffec
+[INFO] [1734291238.289027165] [robot_state_publisher]: got segment horizontal1
+[INFO] [1734291238.289035286] [robot_state_publisher]: got segment horizontal2
+[INFO] [1734291238.289040761] [robot_state_publisher]: got segment redonda
+[INFO] [1734291238.289046310] [robot_state_publisher]: got segment vertical1
+[INFO] [1734291238.289051365] [robot_state_publisher]: got segment vertical2
+[INFO] [1734291316.724921802] [rclcpp]: signal_handler(signum=2)
