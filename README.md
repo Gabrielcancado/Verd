@@ -72,7 +72,7 @@ source install/setup.bash
 To run the simulation on Rviz of the manipulator, just use the following command.
 
 ```
-ros2 launch manipulator3 puma_display.launch.py
+ros2 launch manipulator3 display.launch.py
 ```
 
 
