@@ -1,0 +1,66 @@
+1734196254.4684603 [DEBUG] [launch.launch_context]: emitting event synchronously: 'launch.events.IncludeLaunchDescription'
+1734196254.4690692 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-14-10-54-468146-sabrina-Inspiron-3501-131
+1734196254.4691622 [INFO] [launch]: Default logging verbosity is set to DEBUG
+1734196254.4701114 [DEBUG] [launch]: processing event: '<launch.events.include_launch_description.IncludeLaunchDescription object at 0x760f0b9f0910>'
+1734196254.4702060 [DEBUG] [launch]: processing event: '<launch.events.include_launch_description.IncludeLaunchDescription object at 0x760f0b9f0910>' ✓ '<launch.event_handlers.on_include_launch_description.OnIncludeLaunchDescription object at 0x760f0c6335b0>'
+1734196254.5083711 [DEBUG] [launch]: An exception was raised in an async action/event
+1734196254.5096889 [DEBUG] [launch]: Traceback (most recent call last):
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch/launch_description_sources/any_launch_file_utilities.py", line 54, in get_launch_description_from_any_launch_file
+    return loader(launch_file_path)
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch/launch_description_sources/python_launch_file_utilities.py", line 68, in get_launch_description_from_python_launch_file
+    return getattr(launch_file_module, 'generate_launch_description')()
+  File "/home/ros2_ws/install/robot_description/share/robot_description/launch/gazebo.launch.py", line 17, in generate_launch_description
+    robot_description_config = xacro.process_file(xacro_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py", line 1098, in process_file
+    process_doc(doc, **kwargs)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py", line 1050, in process_doc
+    eval_all(doc.documentElement, macros, symbols)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py", line 931, in eval_all
+    process_include(node, macros, symbols, eval_all)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py", line 519, in process_include
+    include = parse(None, filename).documentElement
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/xacro/__init__.py", line 1022, in parse
+    return xml.dom.minidom.parse(inp)
+  File "/usr/lib/python3.10/xml/dom/minidom.py", line 1990, in parse
+    return expatbuilder.parse(file)
+  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 913, in parse
+    result = builder.parseFile(file)
+  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 211, in parseFile
+    parser.Parse(b"", True)
+xml.parsers.expat.ExpatError: no element found: line 86, column 19
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch/launch_service.py", line 336, in run_async
+    raise completed_tasks_exceptions[0]
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch/launch_service.py", line 230, in _process_one_event
+    await self.__process_event(next_event)
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch/launch_service.py", line 250, in __process_event
+    visit_all_entities_and_collect_futures(entity, self.__context))
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch/utilities/visit_all_entities_and_collect_futures_impl.py", line 45, in visit_all_entities_and_collect_futures
+    futures_to_return += visit_all_entities_and_collect_futures(sub_entity, context)
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch/utilities/visit_all_entities_and_collect_futures_impl.py", line 45, in visit_all_entities_and_collect_futures
+    futures_to_return += visit_all_entities_and_collect_futures(sub_entity, context)
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch/utilities/visit_all_entities_and_collect_futures_impl.py", line 38, in visit_all_entities_and_collect_futures
+    sub_entities = entity.visit(context)
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch/action.py", line 108, in visit
+    return self.execute(context)
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch/actions/include_launch_description.py", line 148, in execute
+    launch_description = self.__launch_description_source.get_launch_description(context)
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch/launch_description_source.py", line 84, in get_launch_description
+    self._get_launch_description(self.__expanded_location)
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch/launch_description_sources/any_launch_description_source.py", line 53, in _get_launch_description
+    return get_launch_description_from_any_launch_file(location)
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch/launch_description_sources/any_launch_file_utilities.py", line 57, in get_launch_description_from_any_launch_file
+    raise InvalidLaunchFileError(extension, likely_errors=exceptions)
+launch.invalid_launch_file_error.InvalidLaunchFileError: Caught multiple exceptions when trying to load file of format [py]:
+ - ExpatError: no element found: line 86, column 19
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown
+
+1734196254.5098400 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - ExpatError: no element found: line 86, column 19
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown
+1734196254.5099332 [DEBUG] [launch.launch_context]: emitting event: 'launch.events.Shutdown'
+1734196254.5102785 [DEBUG] [launch]: processing event: '<launch.events.shutdown.Shutdown object at 0x760f0c6330a0>'
+1734196254.5103416 [DEBUG] [launch]: processing event: '<launch.events.shutdown.Shutdown object at 0x760f0c6330a0>' ✓ '<launch.event_handlers.on_shutdown.OnShutdown object at 0x760f0c631cf0>'

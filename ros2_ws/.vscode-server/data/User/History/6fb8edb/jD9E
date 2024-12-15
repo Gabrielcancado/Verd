@@ -1,0 +1,5 @@
+[user]
+	name = gabriel
+	email = gabrielcancado@usp.br
+[credential]
+	helper = "!f() { /home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/node /tmp/vscode-remote-containers-b05e7bbd-3e14-4495-be85-190e6fe03163.js git-credential-helper $*; }; f"

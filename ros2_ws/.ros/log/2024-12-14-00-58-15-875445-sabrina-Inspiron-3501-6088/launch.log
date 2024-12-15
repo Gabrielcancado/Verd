@@ -1,0 +1,17 @@
+1734148695.8763878 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-00-58-15-875445-sabrina-Inspiron-3501-6088
+1734148695.8765361 [INFO] [launch]: Default logging verbosity is set to INFO
+1734148695.9761024 [INFO] [robot_state_publisher-1]: process started with pid [6089]
+1734148695.9764421 [INFO] [joint_state_publisher-2]: process started with pid [6091]
+1734148695.9766006 [INFO] [joint_state_publisher_gui-3]: process started with pid [6093]
+1734148695.9767156 [INFO] [rviz2-4]: process started with pid [6095]
+1734148696.3326712 [joint_state_publisher-2] [INFO] [1734148696.332311956] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734148696.3449261 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734148696.3454766 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734148696.4033277 [joint_state_publisher_gui-3] [INFO] [1734148696.402989004] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734148696.4178050 [joint_state_publisher_gui-3] [INFO] [1734148696.417293426] [joint_state_publisher_gui]: Centering
+1734148696.5128427 [joint_state_publisher_gui-3] [INFO] [1734148696.512488981] [joint_state_publisher_gui]: Centering
+1734148732.6673636 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734148732.6817744 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 6093, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734148732.7815237 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 6089]
+1734148732.8195283 [INFO] [rviz2-4]: process has finished cleanly [pid 6095]
+1734148732.8228304 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 6091]

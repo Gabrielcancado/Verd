@@ -1,0 +1,17 @@
+1734152797.8109810 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-02-06-37-808153-sabrina-Inspiron-3501-15585
+1734152797.8111229 [INFO] [launch]: Default logging verbosity is set to INFO
+1734152797.9038348 [INFO] [robot_state_publisher-1]: process started with pid [15586]
+1734152797.9042990 [INFO] [joint_state_publisher-2]: process started with pid [15588]
+1734152797.9044437 [INFO] [joint_state_publisher_gui-3]: process started with pid [15590]
+1734152797.9045503 [INFO] [rviz2-4]: process started with pid [15592]
+1734152798.2091169 [joint_state_publisher-2] [INFO] [1734152798.208789055] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734152798.2492731 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734152798.2497332 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734152798.2990303 [joint_state_publisher_gui-3] [INFO] [1734152798.298470826] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734152798.3117433 [joint_state_publisher_gui-3] [INFO] [1734152798.311361693] [joint_state_publisher_gui]: Centering
+1734152798.3686767 [joint_state_publisher_gui-3] [INFO] [1734152798.368405843] [joint_state_publisher_gui]: Centering
+1734152841.0843840 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734152841.0952656 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 15590, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734152841.1966369 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 15586]
+1734152841.2343464 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 15588]
+1734152841.2422733 [INFO] [rviz2-4]: process has finished cleanly [pid 15592]

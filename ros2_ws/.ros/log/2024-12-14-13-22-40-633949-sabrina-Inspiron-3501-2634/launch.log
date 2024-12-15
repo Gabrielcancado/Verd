@@ -1,0 +1,13 @@
+1734193360.6347053 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-13-22-40-633949-sabrina-Inspiron-3501-2634
+1734193360.6348963 [INFO] [launch]: Default logging verbosity is set to INFO
+1734193361.2265384 [INFO] [robot_state_publisher-1]: process started with pid [2635]
+1734193361.2267935 [INFO] [joint_state_publisher-2]: process started with pid [2637]
+1734193361.2272377 [INFO] [gzserver-3]: process started with pid [2639]
+1734193361.2273808 [INFO] [gzclient-4]: process started with pid [2641]
+1734193361.2274981 [INFO] [spawn_entity.py-5]: process started with pid [2643]
+1734193361.4754910 [ERROR] [robot_state_publisher-1]: process has died [pid 2635, exit code -6, cmd '/opt/ros/humble/lib/robot_state_publisher/robot_state_publisher --ros-args -r __node:=robot_state_publisher --params-file /tmp/launch_params_zne555f4'].
+1734193661.3001056 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734193661.3465440 [ERROR] [spawn_entity.py-5]: process has died [pid 2643, exit code -2, cmd '/opt/ros/humble/lib/gazebo_ros/spawn_entity.py -entity soldador -topic robot_description -x 0.0 -y 0.0 -z 0.5 --ros-args'].
+1734193661.4232481 [INFO] [gzclient-4]: process has finished cleanly [pid 2641]
+1734193661.4689672 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 2637]
+1734193661.4831390 [INFO] [gzserver-3]: process has finished cleanly [pid 2639]

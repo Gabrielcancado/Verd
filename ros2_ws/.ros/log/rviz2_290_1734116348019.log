@@ -1,0 +1,28 @@
+[INFO] [1734116348.594777301] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1734116348.595208274] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1734116348.681259334] [rviz2]: Stereo is NOT SUPPORTED
+[ERROR] [1734116349.308884664] [rviz2]: Error retrieving file [package://manipulator3/meshes/endeffec.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.309327389] [rviz2]: Error retrieving file [package://manipulator3/meshes/endeffec.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.309606826] [rviz2]: Error retrieving file [package://manipulator3/meshes/endeffec.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.309852666] [rviz2]: Error retrieving file [package://manipulator3/meshes/endeffec.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.311952384] [rviz2]: Error retrieving file [package://manipulator3/meshes/horizontal1.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.312288245] [rviz2]: Error retrieving file [package://manipulator3/meshes/horizontal1.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.312624831] [rviz2]: Error retrieving file [package://manipulator3/meshes/horizontal1.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.312906357] [rviz2]: Error retrieving file [package://manipulator3/meshes/horizontal1.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.313546901] [rviz2]: Error retrieving file [package://manipulator3/meshes/horizontal2.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.313794731] [rviz2]: Error retrieving file [package://manipulator3/meshes/horizontal2.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.314040845] [rviz2]: Error retrieving file [package://manipulator3/meshes/horizontal2.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.314260187] [rviz2]: Error retrieving file [package://manipulator3/meshes/horizontal2.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.314900316] [rviz2]: Error retrieving file [package://manipulator3/meshes/redonda.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.315162063] [rviz2]: Error retrieving file [package://manipulator3/meshes/redonda.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.315418070] [rviz2]: Error retrieving file [package://manipulator3/meshes/redonda.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.315627958] [rviz2]: Error retrieving file [package://manipulator3/meshes/redonda.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.316215811] [rviz2]: Error retrieving file [package://manipulator3/meshes/vertical1.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.316445241] [rviz2]: Error retrieving file [package://manipulator3/meshes/vertical1.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.316640555] [rviz2]: Error retrieving file [package://manipulator3/meshes/vertical1.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.316861868] [rviz2]: Error retrieving file [package://manipulator3/meshes/vertical1.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.317383335] [rviz2]: Error retrieving file [package://manipulator3/meshes/vertical2.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.317592487] [rviz2]: Error retrieving file [package://manipulator3/meshes/vertical2.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.317783635] [rviz2]: Error retrieving file [package://manipulator3/meshes/vertical2.stl]: Package [manipulator3] does not exist
+[ERROR] [1734116349.317982010] [rviz2]: Error retrieving file [package://manipulator3/meshes/vertical2.stl]: Package [manipulator3] does not exist
+[INFO] [1734116430.846337459] [rclcpp]: signal_handler(signum=2)

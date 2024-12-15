@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+
+<robot name = "manipulador" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+    <!-- Definindo Cores -->
+
+    <xacro:include filename="$(find manipulator3)/urdf/cores.xacro" />
+
+    <!-- Definição dos parametros do modelo: Juntas -->
+
+    <xacro:property name="lower"    value="-3.1416" />
+    <xacro:property name="upper"    value="3.1416" />
+    <xacro:property name="effort"   value="1000" />
+    <xacro:property name="velocity" value="0.5" />
+
+    <xacro:macro name="joint_limits">
+        <limit
+            effort="${effort}" 
+            velocity="${velocity}" 
+            lower="${lower}" 
+            upper="${upper}" />
+    </xacro:macro>
+
+    <!-- Carregar arquivo YAML -->
+    <xacro:property name="yaml_file" value="$(find manipulator3)/config/link2_inertia.yaml" />
+    <xacro:property name="link2_inertia" value="${xacro.load_yaml(yaml_file)}" />
+
+
+
+    <!-- manipulador description.--> 
+
+    <!-- Link: world-->
+    <link name="world">
+        <visual>
+            <geometry>
+                <box size="0.0 0.0 0.0"/>  
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <material name="green"/>
+        </visual>    
+    </link>
+
+    <!-- Joint 0: world para vertical1-->
+    <joint name="joint_0" type="fixed">
+        <parent link="world"/>
+        <child link="vertical1"/>
+        <origin xyz="0 0 0.23" 
+                rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link 1: vertical1-->
+    <link name="vertical1">
+        <inertial>
+            <origin
+                xyz="-0.12618 -0.038304 -0.022005"
+                rpy="0 0 0" />
+            <mass
+                value="15.807" />
+            <inertia
+                ixx="0.55024" ixy="-1.5584E-10" ixz="2.6401E-11" 
+                iyy="0.16071" iyz="-0.022162"  izz="0.50424" />
+            </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://manipulator3/meshes/vertical1.stl">
+                </mesh>
+            </geometry>
+            <origin xyz="0 0 0" 
+                    rpy="1.5708 0 0" />
+            <material name="black"/>
+        </visual>
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="1.5708 0 0" />
+            <geometry>
+                <mesh filename="package://manipulator3/meshes/vertical1.stl" >
+                </mesh>
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Joint 1: link_1 para link_2-->
+    <joint name="joint1" type="prismatic">
+        <parent link="vertical1"/>
+        <child link="vertical2"/>
+        <origin xyz="0 0 0" 
+                rpy="0 0 0"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="1000" velocity="0.5" lower="-110.0" upper="-2.218"/>        
+    </joint>
+
+    <!-- Link 2: vertical2-->
+    <link name="vertical2">
+        <inertial>
+            <origin
+                xyz="-0.12618 -0.038304 -0.022005"
+                rpy="0 0 0" />
+            <mass
+                value="15.807" />
+            <inertia
+                ixx="0.55024" ixy="-1.5584E-10" ixz="2.6401E-11" 
+                iyy="0.16071" iyz="-0.022162"  izz="0.50424" />
+            </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://manipulator3/meshes/vertical2.stl">
+                </mesh>
+            </geometry>
+            <origin xyz="0 0 0" 
+                    rpy="1.5708 0 0" />
+            <material name="blue"/>
+        </visual>
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="1.5708 0 0" />
+            <geometry>
+                <mesh filename="package://manipulator3/meshes/vertical2.stl" >
+                </mesh>
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Joint 2: vertical2 para redonda-->
+    <joint name="joint2" type="fixed">
+        <parent link="vertical2"/>
+        <child link="redonda"/>
+        <origin xyz="0 0 0.23" 
+                rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link 3: redonda-->
+    <link name="redonda">
+        <inertial>
+            <origin
+                xyz="-0.12618 -0.038304 -0.022005"
+                rpy="0 0 0" />
+            <mass
+                value="15.807" />
+            <inertia
+                ixx="0.55024" ixy="-1.5584E-10" ixz="2.6401E-11" 
+                iyy="0.16071" iyz="-0.022162"  izz="0.50424" />
+            </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://manipulator3/meshes/redonda.stl">
+                </mesh>
+            </geometry>
+            <origin xyz="0 0 -35" 
+                    rpy="1.5708 0 0" />
+            <material name="white"/>
+        </visual>
+        <collision>
+            <origin
+                xyz="0 0 -35"
+                rpy="1.5708 0 0" />
+            <geometry>
+                <mesh filename="package://manipulator3/meshes/redonda.stl" >
+                </mesh>
+            </geometry>
+        </collision>
+    </link>
+
+
+    <!-- Joint 3: redonda para horizontal1-->
+    <joint name="joint3" type="revolute">
+        <parent link="redonda"/>
+        <child link="horizontal1"/>
+        <origin xyz="0 0 -35" 
+                rpy="0 0 0"/>
+        <axis xyz="0 0 1"/>
+        <limit effort="1000" velocity="0.5" lower="-6.28" upper="6.28"/>        
+    </joint>
+
+    <!-- Link 4: horizontal1-->
+    <link name="horizontal1">
+        <inertial>
+            <origin
+                xyz="-0.12618 -0.038304 -0.022005"
+                rpy="0 0 0" />
+            <mass
+                value="15.807" />
+            <inertia
+                ixx="0.55024" ixy="-1.5584E-10" ixz="2.6401E-11" 
+                iyy="0.16071" iyz="-0.022162"  izz="0.50424" />
+            </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://manipulator3/meshes/horizontal1.stl">
+                </mesh>
+            </geometry>
+            <origin xyz="-65 0 -35" 
+                    rpy="1.5708 0 0" />
+            <material name="black"/>
+        </visual>
+        <collision>
+            <origin
+                xyz="-65 0 -35"
+                rpy="1.5708 0 0" />
+            <geometry>
+                <mesh filename="package://manipulator3/meshes/horizontal1.stl" >
+                </mesh>
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Joint 4: horizontal1 para horizontal2-->
+    <joint name="joint4" type="prismatic">
+        <parent link="horizontal1"/>
+        <child link="horizontal2"/>
+        <origin xyz="-65 0 -35" 
+                rpy="0 0 0"/>
+        <axis xyz="1 0 0"/>
+        <limit effort="1000" velocity="0.5" lower="-130" upper="-88"/>        
+    </joint>
+
+    <!-- Link 5: horizontal2-->
+    <link name="horizontal2">
+        <inertial>
+            <origin
+                xyz="-0.12618 -0.038304 -0.022005"
+                rpy="0 0 0" />
+            <mass
+                value="15.807" />
+            <inertia
+                ixx="0.55024" ixy="-1.5584E-10" ixz="2.6401E-11" 
+                iyy="0.16071" iyz="-0.022162"  izz="0.50424" />
+            </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://manipulator3/meshes/horizontal2.stl">
+                </mesh>
+            </geometry>
+            <origin xyz="-65 0 0" 
+                    rpy="1.5708 0 0" />
+            <material name="blue"/>
+        </visual>
+        <collision>
+            <origin
+                xyz="-65 0 0"
+                rpy="1.5708 0 0" />
+            <geometry>
+                <mesh filename="package://manipulator3/meshes/horizontal2.stl" >
+                </mesh>
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Joint 5: horizontal2 para endeffec-->
+    <joint name="joint5" type="fixed">
+        <parent link="horizontal2"/>
+        <child link="endeffec"/>
+        <origin xyz="-65 0 -35" 
+                rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link 6: endeffec-->
+    <link name="endeffec">
+        <inertial>
+            <origin
+                xyz="-0.12618 -0.038304 -0.022005"
+                rpy="0 0 0" />
+            <mass
+                value="15.807" />
+            <inertia
+                ixx="0.55024" ixy="-1.5584E-10" ixz="2.6401E-11" 
+                iyy="0.16071" iyz="-0.022162"  izz="0.50424" />
+            </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://manipulator3/meshes/endeffec.stl">
+                </mesh>
+            </geometry>
+            <origin xyz="-27 0 0" 
+                    rpy="1.5708 0 3.1415" />
+            <material name="white"/>
+        </visual>
+        <collision>
+            <origin
+                xyz="-27 0 0"
+                rpy="1.5708 0 3.1415" />
+            <geometry>
+                <mesh filename="package://manipulator3/meshes/endeffec.stl" >
+                </mesh>
+            </geometry>
+        </collision>
+    </link>
+
+</robot>

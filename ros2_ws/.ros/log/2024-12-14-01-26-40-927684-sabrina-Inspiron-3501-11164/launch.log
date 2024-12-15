@@ -1,0 +1,17 @@
+1734150400.9282203 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-01-26-40-927684-sabrina-Inspiron-3501-11164
+1734150400.9283500 [INFO] [launch]: Default logging verbosity is set to INFO
+1734150401.0193596 [INFO] [robot_state_publisher-1]: process started with pid [11165]
+1734150401.0198178 [INFO] [joint_state_publisher-2]: process started with pid [11167]
+1734150401.0199580 [INFO] [joint_state_publisher_gui-3]: process started with pid [11169]
+1734150401.0200589 [INFO] [rviz2-4]: process started with pid [11171]
+1734150401.3341668 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734150401.3348606 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734150401.3676181 [joint_state_publisher-2] [INFO] [1734150401.367090543] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734150401.4012105 [joint_state_publisher_gui-3] [INFO] [1734150401.400881928] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734150401.4105687 [joint_state_publisher_gui-3] [INFO] [1734150401.410342932] [joint_state_publisher_gui]: Centering
+1734150401.4647846 [joint_state_publisher_gui-3] [INFO] [1734150401.464520649] [joint_state_publisher_gui]: Centering
+1734150559.1715803 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734150559.1846402 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 11169, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734150559.2850885 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 11165]
+1734150559.3216066 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 11167]
+1734150559.3375823 [INFO] [rviz2-4]: process has finished cleanly [pid 11171]

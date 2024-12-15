@@ -1,0 +1,14 @@
+2024-12-15 15:01:31.844 [info] O experimento 'pythonRecommendTensorboardExt' está ativo
+2024-12-15 15:01:31.844 [info] O experimento 'pythonTerminalEnvVarActivation' está ativo
+2024-12-15 15:01:31.844 [info] O experimento 'pythonTestAdapter' está ativo
+2024-12-15 15:01:31.844 [warning] Dir "/home/ros2_ws/.pixi/envs" is not watchable (directory does not exist)
+2024-12-15 15:01:31.844 [info] Caminho do interpretador Python: /bin/python3
+2024-12-15 15:01:31.872 [info] > pyenv which python
+2024-12-15 15:01:31.872 [info] cwd: .
+2024-12-15 15:01:42.462 [info] Iniciando servidor de idiomas Pylance.
+2024-12-15 15:31:07.278 [info] Discover tests for workspace name: ros2_ws - uri: /home/ros2_ws/src/manipulator3/launch/gazebo.launch.py
+2024-12-15 15:31:07.581 [info] Discover tests for workspace name: ros2_ws - uri: /home/ros2_ws/src/manipulator3/launch/gazebo.launch.py
+2024-12-15 15:31:08.879 [info] Discover tests for workspace name: ros2_ws - uri: /home/ros2_ws/src/manipulator3/launch/gazebo.launch.py
+2024-12-15 15:39:38.536 [info] Discover tests for workspace name: ros2_ws - uri: /home/ros2_ws/src/manipulator3/launch/gazebo.launch.py
+2024-12-15 15:39:39.092 [info] Discover tests for workspace name: ros2_ws - uri: /home/ros2_ws/src/manipulator3/launch/gazebo.launch.py
+2024-12-15 15:39:39.396 [info] Discover tests for workspace name: ros2_ws - uri: /home/ros2_ws/src/manipulator3/launch/gazebo.launch.py

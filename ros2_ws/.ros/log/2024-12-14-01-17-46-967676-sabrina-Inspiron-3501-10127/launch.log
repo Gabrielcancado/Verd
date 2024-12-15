@@ -1,0 +1,17 @@
+1734149866.9684153 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-01-17-46-967676-sabrina-Inspiron-3501-10127
+1734149866.9685566 [INFO] [launch]: Default logging verbosity is set to INFO
+1734149867.0692101 [INFO] [robot_state_publisher-1]: process started with pid [10128]
+1734149867.0694597 [INFO] [joint_state_publisher-2]: process started with pid [10130]
+1734149867.0695803 [INFO] [joint_state_publisher_gui-3]: process started with pid [10132]
+1734149867.0696714 [INFO] [rviz2-4]: process started with pid [10134]
+1734149867.4001195 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734149867.4005332 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734149867.4565306 [joint_state_publisher-2] [INFO] [1734149867.456118214] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734149867.4618893 [joint_state_publisher_gui-3] [INFO] [1734149867.461507568] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734149867.4745126 [joint_state_publisher_gui-3] [INFO] [1734149867.474186588] [joint_state_publisher_gui]: Centering
+1734149867.5693352 [joint_state_publisher_gui-3] [INFO] [1734149867.569017335] [joint_state_publisher_gui]: Centering
+1734149904.1554596 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734149904.1702502 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 10132, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734149904.2697711 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 10128]
+1734149904.3099897 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 10130]
+1734149904.3348439 [INFO] [rviz2-4]: process has finished cleanly [pid 10134]

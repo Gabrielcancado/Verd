@@ -1,0 +1,9 @@
+1734287985.3138266 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-15-15-39-45-313155-gabriel-550XDA-48965
+1734287985.3139272 [INFO] [launch]: Default logging verbosity is set to INFO
+1734287985.3700397 [INFO] [gazebo-1]: process started with pid [48972]
+1734287985.3701942 [INFO] [robot_state_publisher-2]: process started with pid [48974]
+1734287985.3702803 [INFO] [joint_state_publisher_gui-3]: process started with pid [48976]
+1734287985.7211120 [ERROR] [robot_state_publisher-2]: process has died [pid 48974, exit code -6, cmd '/opt/ros/humble/lib/robot_state_publisher/robot_state_publisher --ros-args --params-file /tmp/launch_params_k_g8db2u'].
+1734288001.1218834 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734288001.1285720 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 48976, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734288001.6514373 [INFO] [gazebo-1]: process has finished cleanly [pid 48972]

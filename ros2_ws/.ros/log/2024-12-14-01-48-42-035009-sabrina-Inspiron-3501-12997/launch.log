@@ -1,0 +1,17 @@
+1734151722.0356510 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-01-48-42-035009-sabrina-Inspiron-3501-12997
+1734151722.0357654 [INFO] [launch]: Default logging verbosity is set to INFO
+1734151722.1318567 [INFO] [robot_state_publisher-1]: process started with pid [12998]
+1734151722.1320870 [INFO] [joint_state_publisher-2]: process started with pid [13000]
+1734151722.1322072 [INFO] [joint_state_publisher_gui-3]: process started with pid [13002]
+1734151722.1323159 [INFO] [rviz2-4]: process started with pid [13004]
+1734151722.4446309 [joint_state_publisher-2] [INFO] [1734151722.444348501] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734151722.4905949 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734151722.4910088 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734151722.5425692 [joint_state_publisher_gui-3] [INFO] [1734151722.542341000] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734151722.5545845 [joint_state_publisher_gui-3] [INFO] [1734151722.554160517] [joint_state_publisher_gui]: Centering
+1734151722.6168158 [joint_state_publisher_gui-3] [INFO] [1734151722.616530220] [joint_state_publisher_gui]: Centering
+1734151745.4166436 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734151745.4314239 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 13002, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734151745.5309184 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 12998]
+1734151745.5664799 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 13000]
+1734151745.6556618 [INFO] [rviz2-4]: process has finished cleanly [pid 13004]

@@ -1,0 +1,17 @@
+1734151920.9476333 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-01-52-00-947081-sabrina-Inspiron-3501-13752
+1734151920.9477623 [INFO] [launch]: Default logging verbosity is set to INFO
+1734151921.0450227 [INFO] [robot_state_publisher-1]: process started with pid [13753]
+1734151921.0452645 [INFO] [joint_state_publisher-2]: process started with pid [13755]
+1734151921.0454102 [INFO] [joint_state_publisher_gui-3]: process started with pid [13757]
+1734151921.0455110 [INFO] [rviz2-4]: process started with pid [13759]
+1734151921.3294132 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734151921.3298223 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734151921.3906538 [joint_state_publisher_gui-3] [INFO] [1734151921.390330412] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734151921.4013634 [joint_state_publisher_gui-3] [INFO] [1734151921.400909043] [joint_state_publisher_gui]: Centering
+1734151921.4331954 [joint_state_publisher-2] [INFO] [1734151921.432874130] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734151921.4645026 [joint_state_publisher_gui-3] [INFO] [1734151921.464151000] [joint_state_publisher_gui]: Centering
+1734151951.9475374 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734151951.9582450 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 13757, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734151952.0586374 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 13753]
+1734151952.0933535 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 13755]
+1734151952.1454325 [INFO] [rviz2-4]: process has finished cleanly [pid 13759]

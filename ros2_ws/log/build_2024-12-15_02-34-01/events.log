@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.000394] (manipulator3) JobQueued: {'identifier': 'manipulator3', 'dependencies': OrderedDict()}
+[0.000530] (manipulator3) JobStarted: {'identifier': 'manipulator3'}
+[0.007449] (manipulator3) JobProgress: {'identifier': 'manipulator3', 'progress': 'cmake'}
+[0.007596] (manipulator3) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/src/manipulator3', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/manipulator3'], 'cwd': '/home/ros2_ws/build/manipulator3', 'env': OrderedDict([('HOSTNAME', 'gabriel-550XDA'), ('GIT_ASKPASS', '/home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/helpers/browser.sh'), ('HOME', '/home/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.95.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/runtime-ros2_ws/vscode-ipc-0e1dd9f2-dcb8-422a-b630-7f68aa898cbc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-b05e7bbd-3e14-4495-be85-190e6fe03163.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-b05e7bbd-3e14-4495-be85-190e6fe03163.sock","/home/ros2_ws/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/runtime-ros2_ws/vscode-git-ef65eb2e77.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-b05e7bbd-3e14-4495-be85-190e6fe03163.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2_ws/build/manipulator3'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.052705] (manipulator3) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.093880] (manipulator3) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.098925] (manipulator3) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099792] (-) TimerEvent: {}
+[0.152431] (manipulator3) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.160656] (manipulator3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.160823] (manipulator3) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.161270] (manipulator3) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.163981] (manipulator3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199990] (-) TimerEvent: {}
+[0.227560] (manipulator3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.233512] (manipulator3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.233771] (manipulator3) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.234060] (manipulator3) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.239431] (manipulator3) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300117] (-) TimerEvent: {}
+[0.368058] (manipulator3) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400215] (-) TimerEvent: {}
+[0.447501] (manipulator3) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[0.449564] (manipulator3) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[0.500087] (manipulator3) StdoutLine: {'line': b'-- Found rviz2: 11.2.14 (/opt/ros/humble/share/rviz2/cmake)\n'}
+[0.500246] (-) TimerEvent: {}
+[0.501978] (manipulator3) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.576882] (manipulator3) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.577037] (manipulator3) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.577100] (manipulator3) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.578400] (manipulator3) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.581166] (manipulator3) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.582871] (manipulator3) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.591200] (manipulator3) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.591283] (manipulator3) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.592628] (manipulator3) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.593616] (manipulator3) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.596344] (manipulator3) StdoutLine: {'line': b'-- Generating done\n'}
+[0.597212] (manipulator3) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/manipulator3\n'}
+[0.600426] (-) TimerEvent: {}
+[0.604687] (manipulator3) CommandEnded: {'returncode': 0}
+[0.605023] (manipulator3) JobProgress: {'identifier': 'manipulator3', 'progress': 'build'}
+[0.605048] (manipulator3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/manipulator3', '--', '-j8', '-l8'], 'cwd': '/home/ros2_ws/build/manipulator3', 'env': OrderedDict([('HOSTNAME', 'gabriel-550XDA'), ('GIT_ASKPASS', '/home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/helpers/browser.sh'), ('HOME', '/home/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.95.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/runtime-ros2_ws/vscode-ipc-0e1dd9f2-dcb8-422a-b630-7f68aa898cbc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-b05e7bbd-3e14-4495-be85-190e6fe03163.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-b05e7bbd-3e14-4495-be85-190e6fe03163.sock","/home/ros2_ws/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/runtime-ros2_ws/vscode-git-ef65eb2e77.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-b05e7bbd-3e14-4495-be85-190e6fe03163.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2_ws/build/manipulator3'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.634916] (manipulator3) CommandEnded: {'returncode': 0}
+[0.650547] (manipulator3) JobProgress: {'identifier': 'manipulator3', 'progress': 'install'}
+[0.657939] (manipulator3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/manipulator3'], 'cwd': '/home/ros2_ws/build/manipulator3', 'env': OrderedDict([('HOSTNAME', 'gabriel-550XDA'), ('GIT_ASKPASS', '/home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/helpers/browser.sh'), ('HOME', '/home/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.95.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/runtime-ros2_ws/vscode-ipc-0e1dd9f2-dcb8-422a-b630-7f68aa898cbc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-b05e7bbd-3e14-4495-be85-190e6fe03163.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-ros2_ws'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-b05e7bbd-3e14-4495-be85-190e6fe03163.sock","/home/ros2_ws/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/runtime-ros2_ws/vscode-git-ef65eb2e77.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-b05e7bbd-3e14-4495-be85-190e6fe03163.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2_ws/build/manipulator3'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'America/Sao_Paulo'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.663511] (manipulator3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.663720] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/launch\n'}
+[0.663825] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/launch/gazebo.launch.py\n'}
+[0.663916] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/launch/display.py\n'}
+[0.663995] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/urdf\n'}
+[0.664080] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/urdf/cores.xacro\n'}
+[0.664157] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/urdf/manipulator3.urdf.xacro\n'}
+[0.664234] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/config\n'}
+[0.664308] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/config/link2_inertia.yaml\n'}
+[0.664384] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/config/controllers.yaml\n'}
+[0.664471] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/meshes\n'}
+[0.664549] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/meshes/vertical2.stl\n'}
+[0.664622] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/meshes/endeffec.stl\n'}
+[0.664689] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/meshes/redonda.stl\n'}
+[0.664766] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/meshes/vertical1.stl\n'}
+[0.664848] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/meshes/horizontal1.stl\n'}
+[0.664925] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/meshes/horizontal2.stl\n'}
+[0.665004] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/rviz2\n'}
+[0.665081] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/rviz2/display.rviz\n'}
+[0.665158] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/ament_index/resource_index/package_run_dependencies/manipulator3\n'}
+[0.665234] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/ament_index/resource_index/parent_prefix_path/manipulator3\n'}
+[0.665319] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/environment/ament_prefix_path.sh\n'}
+[0.665398] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/environment/ament_prefix_path.dsv\n'}
+[0.665475] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/environment/path.sh\n'}
+[0.665541] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/environment/path.dsv\n'}
+[0.665621] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/local_setup.bash\n'}
+[0.665697] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/local_setup.sh\n'}
+[0.665774] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/local_setup.zsh\n'}
+[0.665851] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/local_setup.dsv\n'}
+[0.665921] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/package.dsv\n'}
+[0.665985] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/ament_index/resource_index/packages/manipulator3\n'}
+[0.666050] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/cmake/manipulator3Config.cmake\n'}
+[0.666114] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/cmake/manipulator3Config-version.cmake\n'}
+[0.666179] (manipulator3) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/package.xml\n'}
+[0.667239] (manipulator3) CommandEnded: {'returncode': 0}
+[0.697508] (manipulator3) JobEnded: {'identifier': 'manipulator3', 'rc': 0}
+[0.698116] (-) EventReactorShutdown: {}

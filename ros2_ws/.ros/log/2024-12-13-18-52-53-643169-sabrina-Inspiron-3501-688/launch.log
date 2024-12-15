@@ -1,0 +1,18 @@
+1734126773.6437378 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-13-18-52-53-643169-sabrina-Inspiron-3501-688
+1734126773.6438797 [INFO] [launch]: Default logging verbosity is set to INFO
+1734126773.7190368 [INFO] [robot_state_publisher-1]: process started with pid [689]
+1734126773.7192776 [INFO] [joint_state_publisher-2]: process started with pid [691]
+1734126773.7193973 [INFO] [joint_state_publisher_gui-3]: process started with pid [693]
+1734126773.7194936 [INFO] [rviz2-4]: process started with pid [695]
+1734126774.0403891 [joint_state_publisher-2] [INFO] [1734126774.039909155] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734126774.0695307 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734126774.0700066 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734126774.1216807 [joint_state_publisher_gui-3] [INFO] [1734126774.121316723] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734126774.1324449 [joint_state_publisher_gui-3] [INFO] [1734126774.132156795] [joint_state_publisher_gui]: Centering
+1734126774.1843383 [joint_state_publisher_gui-3] [INFO] [1734126774.183996752] [joint_state_publisher_gui]: Centering
+1734126774.7691295 [joint_state_publisher_gui-3] [INFO] [1734126774.768672252] [joint_state_publisher_gui]: Centering
+1734126806.3934190 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734126806.4068112 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 693, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734126806.5079570 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 689]
+1734126806.5470071 [INFO] [rviz2-4]: process has finished cleanly [pid 695]
+1734126806.5529568 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 691]

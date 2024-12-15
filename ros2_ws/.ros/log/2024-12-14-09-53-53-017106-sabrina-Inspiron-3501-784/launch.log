@@ -1,0 +1,17 @@
+1734180833.0176718 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-09-53-53-017106-sabrina-Inspiron-3501-784
+1734180833.0178072 [INFO] [launch]: Default logging verbosity is set to INFO
+1734180833.1198859 [INFO] [robot_state_publisher-1]: process started with pid [785]
+1734180833.1201210 [INFO] [joint_state_publisher-2]: process started with pid [787]
+1734180833.1202438 [INFO] [joint_state_publisher_gui-3]: process started with pid [789]
+1734180833.1203439 [INFO] [rviz2-4]: process started with pid [791]
+1734180833.4348519 [joint_state_publisher-2] [INFO] [1734180833.434423258] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734180833.4588480 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734180833.4592614 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734180833.5128319 [joint_state_publisher_gui-3] [INFO] [1734180833.512542220] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734180833.5238967 [joint_state_publisher_gui-3] [INFO] [1734180833.523578088] [joint_state_publisher_gui]: Centering
+1734180833.5927835 [joint_state_publisher_gui-3] [INFO] [1734180833.592560617] [joint_state_publisher_gui]: Centering
+1734180880.1323359 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734180880.1438069 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 789, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734180880.2436767 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 785]
+1734180880.2816522 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 787]
+1734180880.3352730 [INFO] [rviz2-4]: process has finished cleanly [pid 791]

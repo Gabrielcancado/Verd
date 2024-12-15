@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="manipulator_gazebo">
+
+  <!-- Importa o URDF original -->
+  <xacro:include filename="$(find manipulator3)/urdf/manipulator3.urdf.xacro"/>
+  <xacro:arg name="prefix" default=""/>
+
+  <!-- Adiciona fricção e damping para as juntas -->
+  <xacro:macro name="add_gazebo_dynamics" params="joint_name">
+    <gazebo reference="${joint_name}">
+      <dynamics damping="0.1" friction="0.1"/>
+    </gazebo>
+  </xacro:macro>
+
+  <!-- Adiciona configurações para Gazebo -->
+  <gazebo>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so"/>
+  </gazebo>
+
+  <!-- Adiciona os plugins de dinâmica a cada junta -->
+  <xacro:add_gazebo_dynamics joint_name="joint1"/>
+  <xacro:add_gazebo_dynamics joint_name="joint3"/>
+  <xacro:add_gazebo_dynamics joint_name="joint4"/>
+
+  <!-- Modificação para colisão simplificada, se necessário -->
+  <link name="base_link">
+    <collision>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Garante que as propriedades inerciais estejam consistentes -->
+  <link name="horizontal1">
+    <inertial>
+      <mass value="0.5"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+  </link>
+
+</robot>

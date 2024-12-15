@@ -1,0 +1,13 @@
+1734190591.3144100 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-12-36-31-313822-sabrina-Inspiron-3501-400
+1734190591.3145211 [INFO] [launch]: Default logging verbosity is set to INFO
+1734190591.9057970 [INFO] [robot_state_publisher-1]: process started with pid [401]
+1734190591.9060287 [INFO] [joint_state_publisher-2]: process started with pid [403]
+1734190591.9061611 [INFO] [gzserver-3]: process started with pid [405]
+1734190591.9062471 [INFO] [gzclient-4]: process started with pid [407]
+1734190591.9063227 [INFO] [spawn_entity.py-5]: process started with pid [409]
+1734190592.8145988 [INFO] [spawn_entity.py-5]: process has finished cleanly [pid 409]
+1734191580.9664159 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734191581.0789680 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 401]
+1734191581.1150081 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 403]
+1734191581.1282711 [INFO] [gzclient-4]: process has finished cleanly [pid 407]
+1734191581.1314559 [INFO] [gzserver-3]: process has finished cleanly [pid 405]

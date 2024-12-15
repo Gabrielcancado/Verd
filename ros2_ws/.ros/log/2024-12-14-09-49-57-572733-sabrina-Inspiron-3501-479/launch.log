@@ -1,0 +1,3 @@
+1734180597.5732949 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-09-49-57-572733-sabrina-Inspiron-3501-479
+1734180597.5734146 [INFO] [launch]: Default logging verbosity is set to INFO
+1734180597.6496849 [ERROR] [launch]: Caught exception in launch (see debug for traceback): "package 'gazebo_ros' not found, searching: ['/home/ros2_ws/install/robot_description', '/opt/ros/humble']"

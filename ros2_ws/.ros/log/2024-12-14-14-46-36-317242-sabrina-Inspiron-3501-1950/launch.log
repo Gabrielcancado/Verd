@@ -1,0 +1,5 @@
+1734198396.3178988 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-14-46-36-317242-sabrina-Inspiron-3501-1950
+1734198396.3180268 [INFO] [launch]: Default logging verbosity is set to INFO
+1734198396.3532388 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - ExpatError: no element found: line 86, column 19
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

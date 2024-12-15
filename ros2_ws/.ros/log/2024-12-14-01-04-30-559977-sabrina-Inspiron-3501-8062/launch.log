@@ -1,0 +1,17 @@
+1734149070.5606470 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-01-04-30-559977-sabrina-Inspiron-3501-8062
+1734149070.5607867 [INFO] [launch]: Default logging verbosity is set to INFO
+1734149070.6614075 [INFO] [robot_state_publisher-1]: process started with pid [8063]
+1734149070.6616442 [INFO] [joint_state_publisher-2]: process started with pid [8065]
+1734149070.6617687 [INFO] [joint_state_publisher_gui-3]: process started with pid [8067]
+1734149070.6618686 [INFO] [rviz2-4]: process started with pid [8069]
+1734149071.0457482 [joint_state_publisher-2] [INFO] [1734149071.045433775] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734149071.0753548 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734149071.0758920 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734149071.1416025 [joint_state_publisher_gui-3] [INFO] [1734149071.141319139] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734149071.1522338 [joint_state_publisher_gui-3] [INFO] [1734149071.151993648] [joint_state_publisher_gui]: Centering
+1734149071.2150087 [joint_state_publisher_gui-3] [INFO] [1734149071.214773331] [joint_state_publisher_gui]: Centering
+1734149089.3337674 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734149089.3477969 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 8067, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734149089.4482131 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 8063]
+1734149089.4826376 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 8065]
+1734149089.5165467 [INFO] [rviz2-4]: process has finished cleanly [pid 8069]

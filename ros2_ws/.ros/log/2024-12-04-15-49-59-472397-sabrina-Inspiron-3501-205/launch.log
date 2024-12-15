@@ -1,0 +1,20 @@
+1733338199.4729314 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-04-15-49-59-472397-sabrina-Inspiron-3501-205
+1733338199.4730234 [INFO] [launch]: Default logging verbosity is set to INFO
+1733338199.5429473 [INFO] [robot_state_publisher-1]: process started with pid [206]
+1733338199.5431449 [INFO] [joint_state_publisher-2]: process started with pid [208]
+1733338199.5432389 [INFO] [joint_state_publisher_gui-3]: process started with pid [210]
+1733338199.5433159 [INFO] [rviz2-4]: process started with pid [212]
+1733338199.7906456 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1733338199.7909720 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1733338199.8170731 [joint_state_publisher-2] [INFO] [1733338199.816863829] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1733338199.8363621 [joint_state_publisher_gui-3] [INFO] [1733338199.836136957] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1733338199.8468387 [joint_state_publisher_gui-3] [INFO] [1733338199.846620459] [joint_state_publisher_gui]: Centering
+1733338199.8779397 [joint_state_publisher_gui-3] MESA: error: Failed to query drm device.
+1733338199.8780820 [joint_state_publisher_gui-3] libGL error: glx: failed to create dri3 screen
+1733338199.8781388 [joint_state_publisher_gui-3] libGL error: failed to load driver: iris
+1733338199.9105856 [joint_state_publisher_gui-3] [INFO] [1733338199.910298645] [joint_state_publisher_gui]: Centering
+1733338222.9285948 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1733338222.9387596 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 210, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1733338223.0375066 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 206]
+1733338223.0741057 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 208]
+1733338223.1264358 [INFO] [rviz2-4]: process has finished cleanly [pid 212]

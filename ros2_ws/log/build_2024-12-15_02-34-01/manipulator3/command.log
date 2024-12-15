@@ -1,0 +1,6 @@
+Invoking command in '/home/ros2_ws/build/manipulator3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2_ws/src/manipulator3 -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/manipulator3
+Invoked command in '/home/ros2_ws/build/manipulator3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2_ws/src/manipulator3 -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/manipulator3
+Invoking command in '/home/ros2_ws/build/manipulator3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/manipulator3 -- -j8 -l8
+Invoked command in '/home/ros2_ws/build/manipulator3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/manipulator3 -- -j8 -l8
+Invoking command in '/home/ros2_ws/build/manipulator3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/manipulator3
+Invoked command in '/home/ros2_ws/build/manipulator3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/manipulator3
