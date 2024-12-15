@@ -1,0 +1,17 @@
+1734148055.8028042 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-00-47-35-802166-sabrina-Inspiron-3501-4537
+1734148055.8029404 [INFO] [launch]: Default logging verbosity is set to INFO
+1734148055.9014442 [INFO] [robot_state_publisher-1]: process started with pid [4538]
+1734148055.9016905 [INFO] [joint_state_publisher-2]: process started with pid [4540]
+1734148055.9018123 [INFO] [joint_state_publisher_gui-3]: process started with pid [4542]
+1734148055.9019082 [INFO] [rviz2-4]: process started with pid [4544]
+1734148056.2607696 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734148056.2611778 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734148056.2625148 [joint_state_publisher-2] [INFO] [1734148056.262317384] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734148056.3188984 [joint_state_publisher_gui-3] [INFO] [1734148056.318539054] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734148056.3310394 [joint_state_publisher_gui-3] [INFO] [1734148056.330774280] [joint_state_publisher_gui]: Centering
+1734148056.3885303 [joint_state_publisher_gui-3] [INFO] [1734148056.388181384] [joint_state_publisher_gui]: Centering
+1734148194.7255821 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734148194.7372530 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 4542, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734148194.8382692 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 4538]
+1734148194.8753626 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 4540]
+1734148194.9160149 [INFO] [rviz2-4]: process has finished cleanly [pid 4544]

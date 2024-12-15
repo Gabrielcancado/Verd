@@ -1,0 +1,17 @@
+1734149202.7395096 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-01-06-42-738826-sabrina-Inspiron-3501-8775
+1734149202.7396574 [INFO] [launch]: Default logging verbosity is set to INFO
+1734149202.8392375 [INFO] [robot_state_publisher-1]: process started with pid [8776]
+1734149202.8394759 [INFO] [joint_state_publisher-2]: process started with pid [8778]
+1734149202.8396106 [INFO] [joint_state_publisher_gui-3]: process started with pid [8780]
+1734149202.8397057 [INFO] [rviz2-4]: process started with pid [8782]
+1734149203.2188289 [joint_state_publisher-2] [INFO] [1734149203.218555165] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734149203.2475815 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734149203.2481117 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734149203.3133283 [joint_state_publisher_gui-3] [INFO] [1734149203.312935417] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734149203.3235438 [joint_state_publisher_gui-3] [INFO] [1734149203.323053350] [joint_state_publisher_gui]: Centering
+1734149203.3966839 [joint_state_publisher_gui-3] [INFO] [1734149203.396353185] [joint_state_publisher_gui]: Centering
+1734149308.0188389 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734149308.0342243 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 8780, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734149308.1328192 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 8776]
+1734149308.1714160 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 8778]
+1734149308.2207513 [INFO] [rviz2-4]: process has finished cleanly [pid 8782]

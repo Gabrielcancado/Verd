@@ -1,0 +1,78 @@
+2024-12-15 01:32:22.836 [info] 
+
+
+
+
+2024-12-15 01:32:22.847 [info] Installing extensions...
+2024-12-15 01:32:22.850 [info] Extension host agent started.
+2024-12-15 01:32:22.888 [debug] Error while reading the extension cache file: /home/ros2_ws/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache Unable to read file '/home/ros2_ws/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache' (Error: Unable to resolve nonexistent file '/home/ros2_ws/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache')
+2024-12-15 01:32:22.889 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ros2_ws/.vscode-server/extensions
+2024-12-15 01:32:22.917 [info] [127.0.0.1][2270cf7a][ManagementConnection] New connection established.
+2024-12-15 01:32:22.936 [debug] ComputeTargetPlatform: linux-x64
+2024-12-15 01:32:22.968 [info] Log level changed to info
+2024-12-15 01:32:23.002 [info] Installing extensions...
+2024-12-15 01:32:23.025 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ros2_ws/.vscode-server/extensions
+2024-12-15 01:32:23.038 [info] [127.0.0.1][21862c0b][ExtensionHostConnection] New connection established.
+2024-12-15 01:32:23.109 [info] [127.0.0.1][21862c0b][ExtensionHostConnection] <399> Launched Extension Host Process.
+2024-12-15 01:32:23.432 [info] Installing extension 'ms-ceintl.vscode-language-pack-pt-br'...
+2024-12-15 01:32:23.705 [info] Getting Manifest... ms-ceintl.vscode-language-pack-pt-br
+2024-12-15 01:32:23.722 [info] Installing extension: ms-ceintl.vscode-language-pack-pt-br {"isMachineScoped":true,"isBuiltin":false,"installGivenVersion":false,"isApplicationScoped":true,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/ros2_ws/.vscode-server/extensions/extensions.json","external":"file:///home/ros2_ws/.vscode-server/extensions/extensions.json","path":"/home/ros2_ws/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.1","date":"2024-10-31T05:14:54.222Z"}}
+2024-12-15 01:32:24.778 [info] Installing extension 'ms-ceintl.vscode-language-pack-pt-br'...
+2024-12-15 01:32:24.834 [info] Installing extension 'ms-python.debugpy'...
+2024-12-15 01:32:24.841 [info] Installing extension 'ms-python.python'...
+2024-12-15 01:32:24.908 [info] Installing extension 'ms-python.vscode-pylance'...
+2024-12-15 01:32:24.909 [info] Getting Manifest... ms-python.debugpy
+2024-12-15 01:32:24.909 [info] Getting Manifest... ms-python.python
+2024-12-15 01:32:24.909 [info] Getting Manifest... ms-python.vscode-pylance
+2024-12-15 01:32:24.992 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-pt-br: Success. Executed: true. Duration: 1204ms.
+2024-12-15 01:32:25.038 [info] Extracted extension to file:///home/ros2_ws/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.95.2024110721: ms-ceintl.vscode-language-pack-pt-br
+2024-12-15 01:32:25.042 [info] Renamed to /home/ros2_ws/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.95.2024110721
+2024-12-15 01:32:25.048 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-pt-br
+2024-12-15 01:32:25.063 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-pt-br file:///home/ros2_ws/.vscode-server/extensions/extensions.json
+2024-12-15 01:32:25.064 [info] Extension 'ms-ceintl.vscode-language-pack-pt-br' v1.95.2024110721 was successfully installed.
+2024-12-15 01:32:25.159 [info] Getting Manifest... ms-ceintl.vscode-language-pack-pt-br
+2024-12-15 01:32:25.176 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/ros2_ws/.vscode-server/extensions/extensions.json","external":"file:///home/ros2_ws/.vscode-server/extensions/extensions.json","path":"/home/ros2_ws/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.1","date":"2024-10-31T05:14:54.222Z"}}
+2024-12-15 01:32:25.176 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/ros2_ws/.vscode-server/extensions/extensions.json","external":"file:///home/ros2_ws/.vscode-server/extensions/extensions.json","path":"/home/ros2_ws/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.1","date":"2024-10-31T05:14:54.222Z"}}
+2024-12-15 01:32:25.177 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/ros2_ws/.vscode-server/extensions/extensions.json","external":"file:///home/ros2_ws/.vscode-server/extensions/extensions.json","path":"/home/ros2_ws/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.1","date":"2024-10-31T05:14:54.222Z"}}
+2024-12-15 01:32:25.177 [info] Installing extension: ms-ceintl.vscode-language-pack-pt-br {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/ros2_ws/.vscode-server/extensions/extensions.json","external":"file:///home/ros2_ws/.vscode-server/extensions/extensions.json","path":"/home/ros2_ws/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.1","date":"2024-10-31T05:14:54.222Z"}}
+2024-12-15 01:32:25.715 [info] Getting Manifest... ms-python.vscode-pylance
+2024-12-15 01:32:25.747 [info] Getting Manifest... ms-python.debugpy
+2024-12-15 01:32:25.973 [info] Getting Manifest... ms-python.python
+2024-12-15 01:32:26.193 [info] Getting Manifest... ms-python.vscode-pylance
+2024-12-15 01:32:26.483 [info] Getting Manifest... ms-python.python
+2024-12-15 01:32:27.002 [info] Getting Manifest... ms-python.debugpy
+2024-12-15 01:32:27.037 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-pt-br
+2024-12-15 01:32:27.873 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 815ms.
+2024-12-15 01:32:27.911 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 833ms.
+2024-12-15 01:32:28.315 [info] Extracted extension to file:///home/ros2_ws/.vscode-server/extensions/ms-python.debugpy-2024.14.0-linux-x64: ms-python.debugpy
+2024-12-15 01:32:28.325 [info] Renamed to /home/ros2_ws/.vscode-server/extensions/ms-python.debugpy-2024.14.0-linux-x64
+2024-12-15 01:32:28.551 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 936ms.
+2024-12-15 01:32:28.749 [info] Extracted extension to file:///home/ros2_ws/.vscode-server/extensions/ms-python.python-2024.22.0-linux-x64: ms-python.python
+2024-12-15 01:32:28.755 [info] Renamed to /home/ros2_ws/.vscode-server/extensions/ms-python.python-2024.22.0-linux-x64
+2024-12-15 01:32:30.119 [info] Extracted extension to file:///home/ros2_ws/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1: ms-python.vscode-pylance
+2024-12-15 01:32:30.130 [info] Renamed to /home/ros2_ws/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1
+2024-12-15 01:32:30.140 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-pt-br file:///home/ros2_ws/.vscode-server/extensions/extensions.json
+2024-12-15 01:32:30.140 [info] Extension installed successfully: ms-python.debugpy file:///home/ros2_ws/.vscode-server/extensions/extensions.json
+2024-12-15 01:32:30.140 [info] Extension installed successfully: ms-python.python file:///home/ros2_ws/.vscode-server/extensions/extensions.json
+2024-12-15 01:32:30.140 [info] Extension installed successfully: ms-python.vscode-pylance file:///home/ros2_ws/.vscode-server/extensions/extensions.json
+2024-12-15 01:32:30.142 [info] Extension 'ms-ceintl.vscode-language-pack-pt-br' v1.95.2024110721 was successfully installed.
+2024-12-15 01:32:30.142 [info] Extension 'ms-python.debugpy' v2024.14.0 was successfully installed.
+2024-12-15 01:32:30.142 [info] Extension 'ms-python.python' v2024.22.0 was successfully installed.
+2024-12-15 01:32:30.142 [info] Extension 'ms-python.vscode-pylance' v2024.12.1 was successfully installed.
+2024-12-15 01:33:34.176 [info] [127.0.0.1][2270cf7a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-12-15 01:33:34.211 [info] [127.0.0.1][21862c0b][ExtensionHostConnection] <399> Extension Host Process exited with code: 0, signal: null.
+2024-12-15 01:33:36.021 [info] [127.0.0.1][ced2696d][ManagementConnection] New connection established.
+2024-12-15 01:33:36.224 [info] [127.0.0.1][0a4ef8c9][ExtensionHostConnection] New connection established.
+2024-12-15 01:33:36.240 [info] [127.0.0.1][0a4ef8c9][ExtensionHostConnection] <1955> Launched Extension Host Process.
+2024-12-15 01:34:02.490 [info] [127.0.0.1][ced2696d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-12-15 01:34:02.524 [info] [127.0.0.1][0a4ef8c9][ExtensionHostConnection] <1955> Extension Host Process exited with code: 0, signal: null.
+2024-12-15 01:34:10.473 [info] [127.0.0.1][6d5c2f03][ManagementConnection] New connection established.
+2024-12-15 01:34:10.680 [info] [127.0.0.1][c25d34e5][ExtensionHostConnection] New connection established.
+2024-12-15 01:34:10.710 [info] [127.0.0.1][c25d34e5][ExtensionHostConnection] <2931> Launched Extension Host Process.
+2024-12-15 01:34:25.492 [info] [127.0.0.1][6d5c2f03][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-12-15 01:34:25.516 [info] [127.0.0.1][c25d34e5][ExtensionHostConnection] <2931> Extension Host Process exited with code: 0, signal: null.
+2024-12-15 01:34:27.298 [info] [127.0.0.1][32fb60c8][ManagementConnection] New connection established.
+2024-12-15 01:34:27.513 [info] [127.0.0.1][cf9904cd][ExtensionHostConnection] New connection established.
+2024-12-15 01:34:27.538 [info] [127.0.0.1][cf9904cd][ExtensionHostConnection] <3753> Launched Extension Host Process.
+2024-12-15 01:58:08.778 [info] [127.0.0.1][32fb60c8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-12-15 01:58:08.839 [info] [127.0.0.1][cf9904cd][ExtensionHostConnection] <3753> Extension Host Process exited with code: 0, signal: null.

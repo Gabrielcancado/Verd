@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<robot name="montagem" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- Transmissão para a junta base -->
+    <transmission name="base_tran">
+        <!-- Tipo de transmissão usada para esta junta -->
+        <type>transmission_interface/SimpleTransmission</type>
+        <!-- Define a junta associada a esta transmissão -->
+        <joint name="base">
+            <!-- Interface de hardware que controla o esforço (força ou torque) da junta -->
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <!-- Atuador associado à transmissão -->
+        <actuator name="base_actr">
+            <!-- Interface de hardware para o atuador -->
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <!-- Redução mecânica (1:1 neste caso) -->
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+
+    <!-- Transmissão para estrutura1 -->
+    <transmission name="estrutura1_tran">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="estrutura1">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="estrutura1_actr">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+
+    <!-- Transmissão para estrutura2 -->
+    <transmission name="estrutura2_tran">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="estrutura2">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="estrutura2_actr">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+
+    <!-- Transmissão para estrutura3 -->
+    <transmission name="estrutura3_tran">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="estrutura3">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="estrutura3_actr">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+
+    <!-- Transmissão para motor1.1 -->
+    <transmission name="motor1.1_tran">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="motor1.1">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="motor1.1_actr">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+
+    <!-- Transmissão para motor1.2 -->
+    <transmission name="motor1.2_tran">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="motor1.2">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="motor1.2_actr">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+
+    <!-- Transmissão para motor2 -->
+    <transmission name="motor2_tran">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="motor2">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="motor2_actr">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+
+</robot>

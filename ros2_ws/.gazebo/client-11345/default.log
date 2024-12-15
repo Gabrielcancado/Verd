@@ -1,0 +1,18 @@
+Gazebo multi-robot simulator, version 11.10.2
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1734198561 145841975) [Msg] Waiting for master.
+(1734198561 146009560) Failed to create connection to remote host[localhost:11345]
+(1734198562 154754272) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1734198562 154891149) [Msg] Publicized address: 192.168.1.51
+(1734198562 155379914) Loaded .ini file from: "/home/ros2_ws/.gazebo/gui.ini"
+(1734198562 264341593) [Wrn] [GuiIface.cc:120] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+(1734198562 264395006) [Wrn] [GuiIface.cc:120] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+(1734198562 658912153) [Wrn] [Event.cc:61] Warning: Deleting a connection right after creation. Make sure to save the ConnectionPtr from a Connect call
+(1734198563 392971170) No spacenav daemon found. Spacenav functionality is disabled
+(1734198575 404961589) [Err] [JointControlWidget.cc:393] Error advertising topic [/data://world/default/model/soldador/plugin/gazebo_ros2_control/joint_cmd]
+(1734198582 460293253) [Wrn] [Publisher.cc:135] Queue limit reached for topic /gazebo/default/user_camera/pose, deleting message. This warning is printed only once.
+(1734199160 656272281) [Wrn] [Event.cc:61] Warning: Deleting a connection right after creation. Make sure to save the ConnectionPtr from a Connect call

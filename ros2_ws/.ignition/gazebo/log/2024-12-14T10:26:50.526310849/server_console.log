@@ -1,0 +1,51 @@
+(2024-12-14T10:26:50.632545739) (2024-12-14T10:26:50.632564858) [Msg] Ignition Gazebo Server v6.16.0
+(2024-12-14T10:26:50.639554410) (2024-12-14T10:26:50.639577339) [Msg] Loading SDF world file[/usr/share/ignition/ignition-gazebo6/worlds/empty.sdf].
+(2024-12-14T10:26:50.693955374) (2024-12-14T10:26:50.693962834) [Msg] Serving entity system service on [/entity/system/add]
+(2024-12-14T10:26:50.719988320) (2024-12-14T10:26:50.719995963) [Dbg] [Physics.cc:804] Loaded [ignition::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/ign-physics-5/engine-plugins/libignition-physics-dartsim-plugin.so]
+(2024-12-14T10:26:50.720044796) (2024-12-14T10:26:50.720048506) [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2024-12-14T10:26:50.721798877) (2024-12-14T10:26:50.721804238) [Msg] Create service on [/world/empty/create]
+(2024-12-14T10:26:50.721879838) (2024-12-14T10:26:50.721883599) [Msg] Remove service on [/world/empty/remove]
+(2024-12-14T10:26:50.721943926) (2024-12-14T10:26:50.721947474) [Msg] Pose service on [/world/empty/set_pose]
+(2024-12-14T10:26:50.722009307) (2024-12-14T10:26:50.722013355) [Msg] Pose service on [/world/empty/set_pose_vector]
+(2024-12-14T10:26:50.722112501) (2024-12-14T10:26:50.722116617) [Msg] Light configuration service on [/world/empty/light_config]
+(2024-12-14T10:26:50.722245922) (2024-12-14T10:26:50.722250641) [Msg] Physics service on [/world/empty/set_physics]
+(2024-12-14T10:26:50.722322684) (2024-12-14T10:26:50.722326797) [Msg] SphericalCoordinates service on [/world/empty/set_spherical_coordinates]
+(2024-12-14T10:26:50.722365580) (2024-12-14T10:26:50.722369348) [Msg] Enable collision service on [/world/empty/enable_collision]
+(2024-12-14T10:26:50.722406890) (2024-12-14T10:26:50.722410742) [Msg] Disable collision service on [/world/empty/disable_collision]
+(2024-12-14T10:26:50.722532341) (2024-12-14T10:26:50.722536799) [Msg] Material service on [/world/empty/visual_config]
+(2024-12-14T10:26:50.722607621) (2024-12-14T10:26:50.722611767) [Msg] Material service on [/world/empty/wheel_slip]
+(2024-12-14T10:26:50.722635862) (2024-12-14T10:26:50.722639720) [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2024-12-14T10:26:50.724081956) (2024-12-14T10:26:50.724087574) [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2024-12-14T10:26:50.725052272) (2024-12-14T10:26:50.725057296) [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::Contact] for entity [1]
+(2024-12-14T10:26:50.725326994) (2024-12-14T10:26:50.725331397) [Msg] Loaded level [3]
+(2024-12-14T10:26:50.725558600) (2024-12-14T10:26:50.725563085) [Msg] Serving world controls on [/world/empty/control], [/world/empty/control/state] and [/world/empty/playback/control]
+(2024-12-14T10:26:50.725652488) (2024-12-14T10:26:50.725656916) [Msg] Serving GUI information on [/world/empty/gui/info]
+(2024-12-14T10:26:50.725687954) (2024-12-14T10:26:50.725691670) [Msg] World [empty] initialized with [1ms] physics profile.
+(2024-12-14T10:26:50.725785942) (2024-12-14T10:26:50.725790445) [Msg] Serving world SDF generation service on [/world/empty/generate_world_sdf]
+(2024-12-14T10:26:50.725860226) (2024-12-14T10:26:50.725864455) [Msg] Serving world names on [/gazebo/worlds]
+(2024-12-14T10:26:50.725906856) (2024-12-14T10:26:50.725910923) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2024-12-14T10:26:50.725949783) (2024-12-14T10:26:50.725953808) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2024-12-14T10:26:50.725992041) (2024-12-14T10:26:50.725996028) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2024-12-14T10:26:50.726057417) (2024-12-14T10:26:50.726064086) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2024-12-14T10:26:50.726142284) (2024-12-14T10:26:50.726146559) [Msg] Server control service on [/server_control].
+(2024-12-14T10:26:52.529659177) (2024-12-14T10:26:52.529672078) [Msg] Found no publishers on /stats, adding root stats topic
+(2024-12-14T10:26:52.529932824) (2024-12-14T10:26:52.529952744) [Msg] Found no publishers on /clock, adding root clock topic
+(2024-12-14T10:26:52.530137702) (2024-12-14T10:26:52.530146509) [Dbg] [SimulationRunner.cc:496] Creating PostUpdate worker threads: 3
+(2024-12-14T10:26:52.530181470) (2024-12-14T10:26:52.530188951) [Dbg] [SimulationRunner.cc:507] Creating postupdate worker thread (0)
+(2024-12-14T10:26:52.530312102) (2024-12-14T10:26:52.530321305) [Dbg] [SimulationRunner.cc:507] Creating postupdate worker thread (1)
+(2024-12-14T10:26:52.532098731) (2024-12-14T10:26:52.532107589) [Msg] Serving scene information on [/world/empty/scene/info]
+(2024-12-14T10:26:52.532176917) (2024-12-14T10:26:52.532181571) [Msg] Serving graph information on [/world/empty/scene/graph]
+(2024-12-14T10:26:52.532294454) (2024-12-14T10:26:52.532299232) [Msg] Serving full state on [/world/empty/state]
+(2024-12-14T10:26:52.532350937) (2024-12-14T10:26:52.532355439) [Msg] Serving full state (async) on [/world/empty/state_async]
+(2024-12-14T10:26:52.532417219) (2024-12-14T10:26:52.532425032) [Msg] Publishing scene information on [/world/empty/scene/info]
+(2024-12-14T10:26:52.532523097) (2024-12-14T10:26:52.532530018) [Msg] Publishing entity deletions on [/world/empty/scene/deletion]
+(2024-12-14T10:26:52.532583581) (2024-12-14T10:26:52.532591331) [Msg] Publishing state changes on [/world/empty/state]
+(2024-12-14T10:26:52.532661963) (2024-12-14T10:26:52.532669887) [Msg] Publishing pose messages on [/world/empty/pose/info]
+(2024-12-14T10:26:52.532728639) (2024-12-14T10:26:52.532736209) [Msg] Publishing dynamic pose messages on [/world/empty/dynamic_pose/info]
+(2024-12-14T10:26:52.532870924) (2024-12-14T10:26:52.532875841) [Dbg] [EntityComponentManager.cc:1623] Updated state thread iterators: 8 threads processing around 2 entities each.
+(2024-12-14T10:26:52.533198993) (2024-12-14T10:26:52.533206347) [Wrn] [Component.hh:144] Trying to serialize component with data type [N3sdf3v125WorldE], which doesn't have `operator<<`. Component will not be serialized.
+(2024-12-14T10:31:49.438214098) (2024-12-14T10:31:49.438225264) [Dbg] [SignalHandler.cc:141] Received signal[2].
+(2024-12-14T10:31:49.438253214) (2024-12-14T10:31:49.438258704) [Dbg] [ServerPrivate.cc:110] Server received signal[2]
+(2024-12-14T10:31:49.439330599) (2024-12-14T10:31:49.439341224) [Dbg] [gz.cc:410] Shutting down ign-gazebo-server
+((2024-12-14T10:31:49.441481993(2024-12-14T10:31:49.441508622) ([Dbg] [SimulationRunner.cc:523] 2024-12-14T10:31:49.441522748[Dbg] [SimulationRunner.cc:523] 2024-12-14T10:31:49.441522748Exiting postupdate worker thread (1)) ) 
+Exiting postupdate worker thread (0)

@@ -1,0 +1,18 @@
+1734151301.2552717 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-01-41-41-254544-sabrina-Inspiron-3501-12292
+1734151301.2554235 [INFO] [launch]: Default logging verbosity is set to INFO
+1734151301.3640597 [INFO] [robot_state_publisher-1]: process started with pid [12293]
+1734151301.3642969 [INFO] [joint_state_publisher-2]: process started with pid [12295]
+1734151301.3644242 [INFO] [joint_state_publisher_gui-3]: process started with pid [12297]
+1734151301.3645439 [INFO] [rviz2-4]: process started with pid [12299]
+1734151301.6868455 [joint_state_publisher-2] [INFO] [1734151301.686446208] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734151301.7019398 [joint_state_publisher-2] [WARN] [1734151301.701673124] [joint_state_publisher]: Invalid robot_description given, ignoring
+1734151301.7037375 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734151301.7040188 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734151301.7553089 [joint_state_publisher_gui-3] [INFO] [1734151301.754936640] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734151301.7674916 [joint_state_publisher_gui-3] [INFO] [1734151301.767191984] [joint_state_publisher_gui]: Centering
+1734151301.8324559 [joint_state_publisher_gui-3] [WARN] [1734151301.832140271] [joint_state_publisher_gui]: Invalid robot_description given, ignoring
+1734151346.6144555 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734151346.6310995 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 12297, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734151346.7295358 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 12293]
+1734151346.7538066 [INFO] [rviz2-4]: process has finished cleanly [pid 12299]
+1734151346.7678764 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 12295]

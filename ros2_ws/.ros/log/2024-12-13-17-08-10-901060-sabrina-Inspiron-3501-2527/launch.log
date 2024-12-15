@@ -1,0 +1,17 @@
+1734120490.9016652 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-13-17-08-10-901060-sabrina-Inspiron-3501-2527
+1734120490.9017763 [INFO] [launch]: Default logging verbosity is set to INFO
+1734120490.9633787 [INFO] [robot_state_publisher-1]: process started with pid [2528]
+1734120490.9635823 [INFO] [joint_state_publisher-2]: process started with pid [2530]
+1734120490.9636865 [INFO] [joint_state_publisher_gui-3]: process started with pid [2532]
+1734120490.9637702 [INFO] [rviz2-4]: process started with pid [2534]
+1734120491.2242916 [joint_state_publisher-2] [INFO] [1734120491.224001722] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734120491.2421734 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734120491.2424920 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734120491.2859795 [joint_state_publisher_gui-3] [INFO] [1734120491.285754835] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734120491.2946086 [joint_state_publisher_gui-3] [INFO] [1734120491.294321247] [joint_state_publisher_gui]: Centering
+1734120491.3457348 [joint_state_publisher_gui-3] [INFO] [1734120491.345518504] [joint_state_publisher_gui]: Centering
+1734120533.1289198 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734120533.1446195 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 2532, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734120533.2432182 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 2528]
+1734120533.2762268 [INFO] [rviz2-4]: process has finished cleanly [pid 2534]
+1734120533.2809472 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 2530]

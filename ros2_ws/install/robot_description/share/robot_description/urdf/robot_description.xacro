@@ -1,0 +1,433 @@
+<?xml version="1.0"?>
+<robot name="soldador" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find robot_description)/urdf/gazebo.xacro"/>
+<xacro:include filename="$(find robot_description)/urdf/soldador.trans"/>
+<xacro:include filename="$(find robot_description)/urdf/soldador.control.xacro"/>
+
+
+    <!-- Colors Description-->
+    
+    <material name="silver">
+        <color rgba="0.700 0.700 0.700 1.000"/>
+    </material>
+
+    <material name="black">
+        <color rgba="0.0 0.0 0.0 1.0"/> 
+    </material>
+
+    <material name="gray">
+        <color rgba="0.5 0.5 0.5 1.0"/> 
+    </material>
+
+    <material name="green">
+        <color rgba="0.0 1.0 0.0 1.0"/>
+    </material>
+
+
+    <!--Soldador Description-->
+
+    <!-- Link: world-->
+    <link name="world"/>
+
+    <!-- Joint 0: world to base-->
+    <joint name="joint_0" type="fixed">
+        <parent link="world"/>
+        <child link="base"/>
+        <origin xyz="0 0 0.23" rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link: base-->
+    <link name="base">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/Base.stl"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="3.1416 0 0"/>
+            <material name="silver"/>
+        </visual>
+    </link>
+
+    <!-- Joint 1: base to motor1.1-->
+    <joint name="joint_1" type="fixed">
+        <parent link="base"/>
+        <child link="motor1.1"/>
+        <origin xyz="0 0 0.23" rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link: motor1.1-->
+    <link name="motor1.1">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/Motor1.stl"/>
+            </geometry>
+            <origin xyz="0.33 0 -1.5" rpy="0 0 0"/>
+            <material name="gray"/>
+        </visual>
+    </link>
+
+    <!-- Joint 2: base to estrutura1-->
+    <joint name="joint_2" type="revolute">
+        <parent link="base"/>
+        <child link="estrutura1"/>
+        <origin xyz="0 0 0.23" rpy="0 0 0"/>        
+        <axis xyz="0 0 1"/>
+        <limit effort="1000" velocity="0.5" lower="0" upper="6.1832"/>       
+    </joint>
+
+    <!-- Link: estrutura1-->
+    <link name="estrutura1">
+        <inertial>
+            <origin
+                xyz="-0.022505 -0.07849 -3.2256E-07"
+                rpy="0 0 0" />
+            <mass
+                value="4.4341" />
+            <inertia ixx="0.013316" ixy="-0.00027859" ixz="-1.214E-07" iyy="0.027164" iyz="2.346E-07"   izz="0.027328" />
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/Estrutura1.stl"/>
+            </geometry>
+            <origin xyz="0 0 -0.2" rpy="0 0 3.1416"/>
+            <material name="silver"/>
+        </visual> 
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                filename="package://robot_description/meshes/Estrutura1.stl" />
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Joint 3: base to engrenagem2-->
+     <joint name="joint_3" type="fixed">
+        <parent link="base"/>
+        <child link="engrenagem2"/>
+        <origin xyz="0 0 0.23" rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link: engrenagem2-->
+     <link name="engrenagem2">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/Engrenagem2.stl"/>
+            </geometry>
+            <origin xyz="0 0 -0.23" rpy="0 0 0.2"/>
+            <material name="silver"/>
+        </visual>
+    </link>
+
+    <!-- Joint 4: base to engrenagem1.1-->
+    <joint name="joint_4" type="fixed">
+        <parent link="base"/>
+        <child link="engrenagem1.1"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link: engrenagem1.1-->
+     <link name="engrenagem1.1">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/Engrenagem1.stl"/>
+            </geometry>
+            <origin xyz="0 0.8 0" rpy="0 0 0.15"/>
+            <material name="silver"/>
+        </visual>
+    </link>
+
+    <!-- Joint 5: base to engrenagem1.2-->
+    <joint name="joint_5" type="fixed">
+        <parent link="base"/>
+        <child link="engrenagem1.2"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link: engrenagem1.2-->
+    <link name="engrenagem1.2">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/Engrenagem1.stl"/>
+            </geometry>
+            <origin xyz="0 -0.8 0" rpy="0 0 0.15"/>
+            <material name="silver"/>
+        </visual>
+    </link>
+
+    <!-- Joint 6: base to engrenagem1.3-->
+    <joint name="joint_6" type="fixed">
+        <parent link="base"/>
+        <child link="engrenagem1.3"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link: engrenagem1.3-->
+    <link name="engrenagem1.3">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/Engrenagem1.stl"/>
+            </geometry>
+            <origin xyz="0.8 0 0" rpy="0 0 0.15"/>
+            <material name="silver"/>
+        </visual>
+    </link>
+
+    <!-- Joint 7: base to engrenagem1.4-->
+    <joint name="joint_7" type="fixed">
+        <parent link="base"/>
+        <child link="engrenagem1.4"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link: engrenagem1.4-->
+    <link name="engrenagem1.4">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/Engrenagem1.stl"/>
+            </geometry>
+            <origin xyz="-0.8 0 0" rpy="0 0 0.15"/>
+            <material name="silver"/>
+        </visual>
+    </link>
+
+    <!-- Joint 8: base to bucha2-->
+    <joint name="joint_8" type="fixed">
+        <parent link="base"/>
+        <child link="bucha2"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link: bucha2-->
+    <link name="bucha2">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/Bucha2.stl"/>
+            </geometry>
+            <origin xyz="0 0 0.59" rpy="0 0 0.2"/>
+            <material name="silver"/>
+        </visual>
+    </link>
+
+    <!-- Joint 9: base to bucha1-->
+    <joint name="joint_9" type="fixed">
+        <parent link="base"/>
+        <child link="bucha1"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link: bucha1-->
+    <link name="bucha1">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/Bucha1.stl"/>
+            </geometry>
+            <origin xyz="0 0 0.3" rpy="0 0 0"/>
+            <material name="silver"/>
+        </visual>
+    </link>
+
+    <!-- Joint 10: estrutura1 to motor1.2-->
+    <joint name="joint_10" type="fixed">
+        <parent link="estrutura1"/>
+        <child link="motor1.2"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link: motor1.2-->
+    <link name="motor1.2">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/Motor1.stl"/>
+            </geometry>
+            <origin xyz="0.2 0 4.12" rpy="0 1.5707 3.1416"/>
+            <material name="gray"/>
+        </visual>
+    </link>
+
+    <!-- Joint 11: estrutura1 to tampa_link2-->
+    <joint name="joint_11" type="fixed">
+        <parent link="estrutura1"/>
+        <child link="tampa_link2"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link: tampa_link2-->
+    <link name="tampa_link2">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/TampaLink2.stl"/>
+            </geometry>
+            <origin xyz="0.55 0 3.35" rpy="0 1.5707 0"/>
+            <material name="silver"/>
+        </visual>
+    </link>
+
+    <!-- Joint 12: estrutura1 to estrutura2-->
+    <joint name="joint_12" type="revolute">
+        <parent link="estrutura1"/>
+        <child link="estrutura2"/>
+        <origin xyz="0 0 4.45" rpy="0 0 0"/>        
+        <axis xyz="1 0 0"/>
+        <limit effort="1000" velocity="0.5" lower="0" upper="6.1832"/>       
+    </joint>
+
+    <!-- Link: estrutura2-->
+    <link name="estrutura2">
+        <inertial>
+            <origin
+                xyz="-0.01687 -0.088774 -1.1788E-06"
+                rpy="0 0 0" />
+            <mass
+                value="4.6025" />
+            <inertia
+                ixx="0.087355"   ixy="-2.2739E-06"  ixz="3.6529E-07"
+                iyy="0.0091916"  iyz="-4.837E-07"   izz="0.082615" />
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/Estrutura2.stl"/>
+            </geometry>
+            <origin xyz="-1.5 -1.57 0" rpy="-1.5707 3.1416 1.5707"/>
+            <material name="silver"/>
+        </visual>
+         <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                filename="package://robot_description/meshes/Estrutura2.stl" />
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Joint 13: estrutura2 to tampa_linkp-->
+    <joint name="joint_13" type="fixed">
+        <parent link="estrutura2"/>
+        <child link="tampa_linkp"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link: tampa_linkp-->
+    <link name="tampa_linkp">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/TampaLinkP.stl"/>
+            </geometry>
+            <origin xyz="-2.1 0 0" rpy="0 -1.5707 0"/>
+            <material name="black"/>
+        </visual>
+    </link>
+
+    <!-- Joint 14: estrutura2 to motor2-->
+    <joint name="joint_14" type="fixed">
+        <parent link="estrutura2"/>
+        <child link="motor2"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link: motor2-->
+    <link name="motor2">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/Motor2.stl"/>
+            </geometry>
+            <origin xyz="-1.5 0 0" rpy="3.1416 0 0"/>
+            <material name="gray"/>
+        </visual>
+    </link>
+
+    <!-- Joint 15: estrutura2 to fuso_rosca-->
+    <joint name="joint_15" type="fixed">
+        <parent link="estrutura2"/>
+        <child link="fuso_rosca"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link: fuso_rosca-->
+    <link name="fuso_rosca">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/FusoDeRosca.stl"/>
+            </geometry>
+            <origin xyz="-1.5 -2 0" rpy="1.5707 1.5707 0"/>
+            <material name="silver"/>
+        </visual>
+    </link>
+
+    <!-- Joint 16: fuso_rosca to estrutura3-->
+    <joint name="joint_16" type="fixed">
+        <parent link="fuso_rosca"/>
+        <child link="estrutura3"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>        
+    </joint>
+
+    <!-- Link: estrutura3-->
+    <link name="estrutura3">
+        <inertial>
+            <origin
+                xyz="1.1102E-16 -0.0067199 2.7756E-17"
+                rpy="0 0 0" />
+            <mass
+                value="0.47079" />
+            <inertia
+                ixx="0.00077289"  ixy="-1.7279E-19"  ixz="-5.421E-20"
+                iyy="0.00046683"  iyz="1.5585E-19"   izz="0.00073772" />
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_description/meshes/Estrutura3.stl"/>
+            </geometry>
+            <origin xyz="-1.5 -4 0" rpy="1.5707 3.1416 0"/>
+            <material name="gray"/>
+        </visual>
+        <collision>
+            <origin
+                xyz="0 0 0"
+                rpy="0 0 0" />
+            <geometry>
+                <mesh
+                filename="package://robot_description/meshes/Estrutura3.stl" />
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Joint 17: estrutura2 to estrutura3-->
+    <joint name="joint_17" type="prismatic">
+        <parent link="estrutura2"/>
+        <child link="estrutura3"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>        
+        <axis xyz="0 1 0"/>
+        <limit effort="1000" velocity="0.5" lower="0" upper="-2.7"/>       
+    </joint>
+ 
+    <gazebo reference="camera_link">
+    <sensor name="camera" type="camera">
+            <pose> 0 0 0 0 0 0 </pose>
+            <visualize>true</visualize>
+            <update_rate>30</update_rate>
+            <camera>
+                <horizontal_fov>1.089</horizontal_fov>
+                <image>
+                    <format>R8G8B8</format>
+                    <width>640</width>
+                    <height>480</height>
+                </image>
+                <clip>
+                    <near>0.05</near>
+                    <far>8.0</far>
+                </clip>
+            </camera>
+            <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+                <frame_name>camera_link_optical</frame_name>
+                <alwaysOn>true</alwaysOn>
+            </plugin>
+        </sensor>
+</gazebo>
+
+
+
+</robot>

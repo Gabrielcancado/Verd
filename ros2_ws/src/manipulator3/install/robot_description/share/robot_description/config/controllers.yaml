@@ -1,0 +1,38 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100 # 100hz
+    use_sim_time: true
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    trajectory_position_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+trajectory_position_controller:
+  ros__parameters:
+    joints:
+      - base
+      - estrutura1
+      - estrutura2
+      - estrutura3 
+      - motor1.1
+      - motor1.2
+      - motor2
+
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+      - velocity
+
+    state_publish_rate: 50.0
+    action_monitor_rate: 20.0
+
+    allow_partial_joints_goal: false
+    open_loop_control: false
+    constraints:
+      stopped_velocity_tolerance: 0.01
+      goal_time: 0.0
+  

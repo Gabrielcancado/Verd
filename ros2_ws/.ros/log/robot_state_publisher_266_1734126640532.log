@@ -1,0 +1,8 @@
+[INFO] [1734126640.598666178] [robot_state_publisher]: got segment base
+[INFO] [1734126640.598768946] [robot_state_publisher]: got segment engrenagem1
+[INFO] [1734126640.598776017] [robot_state_publisher]: got segment engrenagem2.1
+[INFO] [1734126640.598780703] [robot_state_publisher]: got segment engrenagem2.2
+[INFO] [1734126640.598784630] [robot_state_publisher]: got segment estrutura1
+[INFO] [1734126640.598788453] [robot_state_publisher]: got segment motor1
+[INFO] [1734126640.598792300] [robot_state_publisher]: got segment world
+[INFO] [1734126713.234001724] [rclcpp]: signal_handler(signum=2)

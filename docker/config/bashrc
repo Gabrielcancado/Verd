@@ -1,0 +1,10 @@
+# Sets up the ROS 2 Humble environment by loading essential environment variables and tools.
+source /opt/ros/humble/setup.bash
+
+# Loads the custom workspace environment located at /home/ros2_ws.
+# This ensures that custom or user-built packages are accessible after running 'colcon build'.
+source /home/ros2_ws/install/setup.bash
+
+# Enables the 'colcon_cd' command, which allows quick navigation between packages in the workspace.
+# You can use 'colcon_cd <package_name>' to directly access a package directory.
+source /usr/share/colcon_cd/function/colcon_cd.sh

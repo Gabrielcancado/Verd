@@ -1,0 +1,15 @@
+1734182810.0977867 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-10-26-50-097197-sabrina-Inspiron-3501-839
+1734182810.0979006 [INFO] [launch]: Default logging verbosity is set to INFO
+1734182810.3585818 [INFO] [robot_state_publisher-1]: process started with pid [841]
+1734182810.3588319 [INFO] [ruby $(which ign) gazebo-2]: process started with pid [843]
+1734182810.3589652 [INFO] [create-3]: process started with pid [845]
+1734182810.3590622 [INFO] [parameter_bridge-4]: process started with pid [847]
+1734182810.4143898 [parameter_bridge-4] [INFO] [1734182810.414072396] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msg.Clock]) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+1734182810.4149146 [parameter_bridge-4] [WARN] [1734182810.414266145] [ros_gz_bridge]: Failed to create a bridge for topic [/clock] with ROS2 type [rosgraph_msgs/msg/Clock] to topic [/clock] with Gazebo Transport type [gz.msg.Clock]]
+1734182810.5960739 [ERROR] [robot_state_publisher-1]: process has died [pid 841, exit code -6, cmd '/opt/ros/humble/lib/robot_state_publisher/robot_state_publisher --ros-args --params-file /tmp/launch_params_9dgm7h2_'].
+1734183108.1461422 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734183108.1515367 [parameter_bridge-4] [INFO] [1734183108.145757099] [rclcpp]: signal_handler(signum=2)
+1734183108.2583439 [INFO] [parameter_bridge-4]: process has finished cleanly [pid 847]
+1734183108.2595196 [ERROR] [create-3]: process has died [pid 845, exit code 255, cmd '/opt/ros/humble/lib/ros_gz_sim/create -topic robot_description -name soldador --ros-args'].
+1734183109.4640207 [ERROR] [ruby $(which ign) gazebo-2]: process has died [pid 843, exit code -2, cmd 'ruby $(which ign) gazebo -v 4 -r empty.sdf  --force-version 6'].
+1734183109.4643819 [INFO] [launch]: process[ruby $(which ign) gazebo-2] was required: shutting down launched system

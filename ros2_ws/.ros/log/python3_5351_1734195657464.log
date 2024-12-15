@@ -1,0 +1,7 @@
+[INFO] [1734195657.815366499] [spawn_entity]: Spawn Entity started
+[INFO] [1734195657.816126644] [spawn_entity]: Loading entity published on topic robot_description
+[INFO] [1734195657.819248364] [spawn_entity]: Waiting for entity xml on robot_description
+[INFO] [1734195657.829976150] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[INFO] [1734195657.830517877] [spawn_entity]: Waiting for service /spawn_entity
+[INFO] [1734195658.084401085] [spawn_entity]: Calling service /spawn_entity
+[INFO] [1734195658.298343890] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [soldador]

@@ -1,0 +1,17 @@
+1734128061.5852757 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-13-19-14-21-584642-sabrina-Inspiron-3501-3650
+1734128061.5853944 [INFO] [launch]: Default logging verbosity is set to INFO
+1734128061.6625643 [INFO] [robot_state_publisher-1]: process started with pid [3651]
+1734128061.6630363 [INFO] [joint_state_publisher-2]: process started with pid [3653]
+1734128061.6631846 [INFO] [joint_state_publisher_gui-3]: process started with pid [3655]
+1734128061.6632969 [INFO] [rviz2-4]: process started with pid [3657]
+1734128061.9752100 [joint_state_publisher-2] [INFO] [1734128061.974868832] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734128061.9808345 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734128061.9814091 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734128062.0333745 [joint_state_publisher_gui-3] [INFO] [1734128062.032619023] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734128062.0431468 [joint_state_publisher_gui-3] [INFO] [1734128062.042912954] [joint_state_publisher_gui]: Centering
+1734128062.1458862 [joint_state_publisher_gui-3] [INFO] [1734128062.145563966] [joint_state_publisher_gui]: Centering
+1734128180.5660114 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734128180.5759497 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 3655, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734128180.6772034 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 3651]
+1734128180.7099714 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 3653]
+1734128180.7321923 [INFO] [rviz2-4]: process has finished cleanly [pid 3657]

@@ -1,0 +1,17 @@
+1734148971.3969493 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-01-02-51-396301-sabrina-Inspiron-3501-7498
+1734148971.3970549 [INFO] [launch]: Default logging verbosity is set to INFO
+1734148971.4927928 [INFO] [robot_state_publisher-1]: process started with pid [7499]
+1734148971.4932532 [INFO] [joint_state_publisher-2]: process started with pid [7501]
+1734148971.4933937 [INFO] [joint_state_publisher_gui-3]: process started with pid [7503]
+1734148971.4934986 [INFO] [rviz2-4]: process started with pid [7505]
+1734148971.8344822 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734148971.8352423 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734148971.8612623 [joint_state_publisher-2] [INFO] [1734148971.860962039] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734148971.8914688 [joint_state_publisher_gui-3] [INFO] [1734148971.891095650] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734148971.9032524 [joint_state_publisher_gui-3] [INFO] [1734148971.902964287] [joint_state_publisher_gui]: Centering
+1734148971.9774649 [joint_state_publisher_gui-3] [INFO] [1734148971.977161776] [joint_state_publisher_gui]: Centering
+1734148985.9234562 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734148985.9355202 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 7503, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734148986.0363116 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 7499]
+1734148986.0718489 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 7501]
+1734148986.1145725 [INFO] [rviz2-4]: process has finished cleanly [pid 7505]

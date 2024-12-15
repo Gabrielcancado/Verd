@@ -1,0 +1,17 @@
+1734148800.0796843 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-01-00-00-079033-sabrina-Inspiron-3501-6511
+1734148800.0798020 [INFO] [launch]: Default logging verbosity is set to INFO
+1734148800.1781013 [INFO] [robot_state_publisher-1]: process started with pid [6512]
+1734148800.1783302 [INFO] [joint_state_publisher-2]: process started with pid [6514]
+1734148800.1784728 [INFO] [joint_state_publisher_gui-3]: process started with pid [6516]
+1734148800.1786077 [INFO] [rviz2-4]: process started with pid [6518]
+1734148800.5222011 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734148800.5226214 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734148800.5704253 [joint_state_publisher-2] [INFO] [1734148800.570065793] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734148800.5839148 [joint_state_publisher_gui-3] [INFO] [1734148800.583524405] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734148800.5948973 [joint_state_publisher_gui-3] [INFO] [1734148800.594417647] [joint_state_publisher_gui]: Centering
+1734148800.6583083 [joint_state_publisher_gui-3] [INFO] [1734148800.657987612] [joint_state_publisher_gui]: Centering
+1734148812.5190973 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734148812.5333202 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 6516, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734148812.6339169 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 6512]
+1734148812.6732960 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 6514]
+1734148812.7156031 [INFO] [rviz2-4]: process has finished cleanly [pid 6518]

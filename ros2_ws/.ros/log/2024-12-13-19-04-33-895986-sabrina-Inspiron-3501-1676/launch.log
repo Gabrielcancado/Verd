@@ -1,0 +1,17 @@
+1734127473.8965466 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-13-19-04-33-895986-sabrina-Inspiron-3501-1676
+1734127473.8966646 [INFO] [launch]: Default logging verbosity is set to INFO
+1734127473.9719841 [INFO] [robot_state_publisher-1]: process started with pid [1677]
+1734127473.9724641 [INFO] [joint_state_publisher-2]: process started with pid [1679]
+1734127473.9726140 [INFO] [joint_state_publisher_gui-3]: process started with pid [1681]
+1734127473.9727099 [INFO] [rviz2-4]: process started with pid [1683]
+1734127474.2914758 [joint_state_publisher-2] [INFO] [1734127474.291145180] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734127474.2921648 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734127474.2925124 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734127474.3499253 [joint_state_publisher_gui-3] [INFO] [1734127474.349606731] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734127474.3595226 [joint_state_publisher_gui-3] [INFO] [1734127474.359248838] [joint_state_publisher_gui]: Centering
+1734127474.4115224 [joint_state_publisher_gui-3] [INFO] [1734127474.411211463] [joint_state_publisher_gui]: Centering
+1734127487.2869380 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734127487.2966244 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 1681, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734127487.3982699 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 1677]
+1734127487.4379327 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 1679]
+1734127487.4386151 [INFO] [rviz2-4]: process has finished cleanly [pid 1683]

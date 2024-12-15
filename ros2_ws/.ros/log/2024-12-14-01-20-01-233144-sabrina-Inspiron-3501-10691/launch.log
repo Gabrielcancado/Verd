@@ -1,0 +1,17 @@
+1734150001.2337904 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-01-20-01-233144-sabrina-Inspiron-3501-10691
+1734150001.2338996 [INFO] [launch]: Default logging verbosity is set to INFO
+1734150001.3361907 [INFO] [robot_state_publisher-1]: process started with pid [10692]
+1734150001.3368022 [INFO] [joint_state_publisher-2]: process started with pid [10694]
+1734150001.3369427 [INFO] [joint_state_publisher_gui-3]: process started with pid [10696]
+1734150001.3370414 [INFO] [rviz2-4]: process started with pid [10698]
+1734150001.6698647 [joint_state_publisher-2] [INFO] [1734150001.669544005] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734150001.7243111 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734150001.7247088 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734150001.7828944 [joint_state_publisher_gui-3] [INFO] [1734150001.782616678] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734150001.7928519 [joint_state_publisher_gui-3] [INFO] [1734150001.792552791] [joint_state_publisher_gui]: Centering
+1734150001.8500535 [joint_state_publisher_gui-3] [INFO] [1734150001.849751596] [joint_state_publisher_gui]: Centering
+1734150029.7005081 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734150029.7130005 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 10696, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734150029.8138289 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 10692]
+1734150029.8369372 [INFO] [rviz2-4]: process has finished cleanly [pid 10698]
+1734150029.8520336 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 10694]

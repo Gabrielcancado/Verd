@@ -1,0 +1,15 @@
+1734180405.3452256 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-09-46-45-344685-sabrina-Inspiron-3501-263
+1734180405.3453624 [INFO] [launch]: Default logging verbosity is set to INFO
+1734180405.6592052 [INFO] [robot_state_publisher-1]: process started with pid [265]
+1734180405.6594374 [INFO] [ruby $(which ign) gazebo-2]: process started with pid [267]
+1734180405.6595645 [INFO] [create-3]: process started with pid [269]
+1734180405.6596572 [INFO] [parameter_bridge-4]: process started with pid [272]
+1734180405.7698631 [parameter_bridge-4] [INFO] [1734180405.769625617] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (gz.msg.Clock]) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+1734180405.7744002 [parameter_bridge-4] [WARN] [1734180405.774242159] [ros_gz_bridge]: Failed to create a bridge for topic [/clock] with ROS2 type [rosgraph_msgs/msg/Clock] to topic [/clock] with Gazebo Transport type [gz.msg.Clock]]
+1734180406.5161998 [INFO] [create-3]: process has finished cleanly [pid 269]
+1734180576.4858906 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734180576.4890230 [parameter_bridge-4] [INFO] [1734180576.485643247] [rclcpp]: signal_handler(signum=2)
+1734180576.5928352 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 265]
+1734180576.5934205 [INFO] [parameter_bridge-4]: process has finished cleanly [pid 272]
+1734180578.1809683 [ERROR] [ruby $(which ign) gazebo-2]: process has died [pid 267, exit code -2, cmd 'ruby $(which ign) gazebo -v 4 -r empty.sdf  --force-version 6'].
+1734180578.1816025 [INFO] [launch]: process[ruby $(which ign) gazebo-2] was required: shutting down launched system

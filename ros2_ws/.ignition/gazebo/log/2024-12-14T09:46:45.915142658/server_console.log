@@ -1,0 +1,105 @@
+(2024-12-14T09:46:46.20535053) (2024-12-14T09:46:46.20545708) [Msg] Ignition Gazebo Server v6.16.0
+(2024-12-14T09:46:46.24914626) (2024-12-14T09:46:46.24925321) [Msg] Loading SDF world file[/usr/share/ignition/ignition-gazebo6/worlds/empty.sdf].
+(2024-12-14T09:46:46.85299159) (2024-12-14T09:46:46.85305161) [Msg] Serving entity system service on [/entity/system/add]
+(2024-12-14T09:46:46.192583427) (2024-12-14T09:46:46.192588985) [Dbg] [Physics.cc:804] Loaded [ignition::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/ign-physics-5/engine-plugins/libignition-physics-dartsim-plugin.so]
+(2024-12-14T09:46:46.192633524) (2024-12-14T09:46:46.192635900) [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2024-12-14T09:46:46.197555414) (2024-12-14T09:46:46.197562150) [Msg] Create service on [/world/empty/create]
+(2024-12-14T09:46:46.197662861) (2024-12-14T09:46:46.197667924) [Msg] Remove service on [/world/empty/remove]
+(2024-12-14T09:46:46.197750312) (2024-12-14T09:46:46.197754861) [Msg] Pose service on [/world/empty/set_pose]
+(2024-12-14T09:46:46.197825442) (2024-12-14T09:46:46.197829731) [Msg] Pose service on [/world/empty/set_pose_vector]
+(2024-12-14T09:46:46.197950433) (2024-12-14T09:46:46.197955347) [Msg] Light configuration service on [/world/empty/light_config]
+(2024-12-14T09:46:46.198115438) (2024-12-14T09:46:46.198121014) [Msg] Physics service on [/world/empty/set_physics]
+(2024-12-14T09:46:46.198218592) (2024-12-14T09:46:46.198222076) [Msg] SphericalCoordinates service on [/world/empty/set_spherical_coordinates]
+(2024-12-14T09:46:46.198266034) (2024-12-14T09:46:46.198268977) [Msg] Enable collision service on [/world/empty/enable_collision]
+(2024-12-14T09:46:46.198306169) (2024-12-14T09:46:46.198309115) [Msg] Disable collision service on [/world/empty/disable_collision]
+(2024-12-14T09:46:46.198427147) (2024-12-14T09:46:46.198430326) [Msg] Material service on [/world/empty/visual_config]
+(2024-12-14T09:46:46.198511828) (2024-12-14T09:46:46.198515124) [Msg] Material service on [/world/empty/wheel_slip]
+(2024-12-14T09:46:46.198540282) (2024-12-14T09:46:46.198543139) [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2024-12-14T09:46:46.202886692) (2024-12-14T09:46:46.202892088) [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2024-12-14T09:46:46.205736474) (2024-12-14T09:46:46.205742128) [Dbg] [SystemManager.cc:70] Loaded system [gz::sim::systems::Contact] for entity [1]
+(2024-12-14T09:46:46.206073253) (2024-12-14T09:46:46.206077064) [Msg] Loaded level [3]
+(2024-12-14T09:46:46.206411018) (2024-12-14T09:46:46.206415338) [Msg] Serving world controls on [/world/empty/control], [/world/empty/control/state] and [/world/empty/playback/control]
+(2024-12-14T09:46:46.206523694) (2024-12-14T09:46:46.206527041) [Msg] Serving GUI information on [/world/empty/gui/info]
+(2024-12-14T09:46:46.206544499) (2024-12-14T09:46:46.206547311) [Msg] World [empty] initialized with [1ms] physics profile.
+(2024-12-14T09:46:46.206674511) (2024-12-14T09:46:46.206680372) [Msg] Serving world SDF generation service on [/world/empty/generate_world_sdf]
+(2024-12-14T09:46:46.206764033) (2024-12-14T09:46:46.206767457) [Msg] Serving world names on [/gazebo/worlds]
+(2024-12-14T09:46:46.206810631) (2024-12-14T09:46:46.206813819) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2024-12-14T09:46:46.206859530) (2024-12-14T09:46:46.206864231) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2024-12-14T09:46:46.206929134) (2024-12-14T09:46:46.206934764) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2024-12-14T09:46:46.307324143) (2024-12-14T09:46:46.307333873) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2024-12-14T09:46:46.407930374) (2024-12-14T09:46:46.407950354) [Msg] Server control service on [/server_control].
+(2024-12-14T09:46:47.917815790) (2024-12-14T09:46:47.917822838) [Msg] Found no publishers on /stats, adding root stats topic
+(2024-12-14T09:46:47.918015320) (2024-12-14T09:46:47.918028568) [Msg] Found no publishers on /clock, adding root clock topic
+(2024-12-14T09:46:47.918149690) (2024-12-14T09:46:47.918153106) [Dbg] [SimulationRunner.cc:496] Creating PostUpdate worker threads: 3
+(2024-12-14T09:46:47.918169341) (2024-12-14T09:46:47.918172254) [Dbg] [SimulationRunner.cc:507] Creating postupdate worker thread (0)
+(2024-12-14T09:46:47.918263814) (2024-12-14T09:46:47.918268086) [Dbg] [SimulationRunner.cc:507] Creating postupdate worker thread (1)
+(2024-12-14T09:46:47.957703124) (2024-12-14T09:46:47.957716156) [Err] [UserCommands.cc:1138] Error Code 16: Msg: A model must have at least one link.
+(2024-12-14T09:46:47.957766608) (2024-12-14T09:46:47.957770233) [Err] [UserCommands.cc:1138] Error Code 16: Msg: A model must have at least one link.
+(2024-12-14T09:46:47.957794103) (2024-12-14T09:46:47.957797549) [Err] [UserCommands.cc:1138] Error Code 24: Msg: FrameAttachedToGraph error: scope context name[] does not match __model__ or world.
+(2024-12-14T09:46:47.957827914) (2024-12-14T09:46:47.957831400) [Err] [UserCommands.cc:1138] Error Code 22: Msg: attached_to name[base] specified by frame with name[joint_1] does not match a nested model, link, joint, or frame name in model with name[soldador].
+(2024-12-14T09:46:47.957855931) (2024-12-14T09:46:47.957859327) [Err] [UserCommands.cc:1138] Error Code 22: Msg: attached_to name[base] specified by frame with name[joint_3] does not match a nested model, link, joint, or frame name in model with name[soldador].
+(2024-12-14T09:46:47.957887502) (2024-12-14T09:46:47.957891952) [Err] [UserCommands.cc:1138] Error Code 22: Msg: attached_to name[base] specified by frame with name[joint_4] does not match a nested model, link, joint, or frame name in model with name[soldador].
+(2024-12-14T09:46:47.957915302) (2024-12-14T09:46:47.957918699) [Err] [UserCommands.cc:1138] Error Code 22: Msg: attached_to name[base] specified by frame with name[joint_5] does not match a nested model, link, joint, or frame name in model with name[soldador].
+(2024-12-14T09:46:47.957942373) (2024-12-14T09:46:47.957945759) [Err] [UserCommands.cc:1138] Error Code 22: Msg: attached_to name[base] specified by frame with name[joint_6] does not match a nested model, link, joint, or frame name in model with name[soldador].
+(2024-12-14T09:46:47.957974334) (2024-12-14T09:46:47.957977783) [Err] [UserCommands.cc:1138] Error Code 22: Msg: attached_to name[base] specified by frame with name[joint_7] does not match a nested model, link, joint, or frame name in model with name[soldador].
+(2024-12-14T09:46:47.958001364) (2024-12-14T09:46:47.958004737) [Err] [UserCommands.cc:1138] Error Code 22: Msg: attached_to name[base] specified by frame with name[joint_8] does not match a nested model, link, joint, or frame name in model with name[soldador].
+(2024-12-14T09:46:47.958029490) (2024-12-14T09:46:47.958035466) [Err] [UserCommands.cc:1138] Error Code 22: Msg: attached_to name[base] specified by frame with name[joint_9] does not match a nested model, link, joint, or frame name in model with name[soldador].
+(2024-12-14T09:46:47.958062828) (2024-12-14T09:46:47.958066492) [Err] [UserCommands.cc:1138] Error Code 22: Msg: attached_to name[estrutura1] specified by frame with name[joint_10] does not match a nested model, link, joint, or frame name in model with name[soldador].
+(2024-12-14T09:46:47.958091861) (2024-12-14T09:46:47.958095519) [Err] [UserCommands.cc:1138] Error Code 22: Msg: attached_to name[estrutura1] specified by frame with name[joint_11] does not match a nested model, link, joint, or frame name in model with name[soldador].
+(2024-12-14T09:46:47.958126758) (2024-12-14T09:46:47.958130514) [Err] [UserCommands.cc:1138] Error Code 22: Msg: attached_to name[estrutura2] specified by frame with name[joint_13] does not match a nested model, link, joint, or frame name in model with name[soldador].
+(2024-12-14T09:46:47.958156934) (2024-12-14T09:46:47.958162779) [Err] [UserCommands.cc:1138] Error Code 22: Msg: attached_to name[estrutura2] specified by frame with name[joint_14] does not match a nested model, link, joint, or frame name in model with name[soldador].
+(2024-12-14T09:46:47.958215109) (2024-12-14T09:46:47.958221471) [Err] [UserCommands.cc:1138] Error Code 22: Msg: attached_to name[estrutura2] specified by frame with name[joint_15] does not match a nested model, link, joint, or frame name in model with name[soldador].
+(2024-12-14T09:46:47.958262190) (2024-12-14T09:46:47.958268328) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph error, Vertex with name [soldador::joint_1] is disconnected; it should have 1 incoming edge in MODEL relative_to graph.
+(2024-12-14T09:46:47.958298116) (2024-12-14T09:46:47.958301876) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph error, Vertex with name [soldador::joint_3] is disconnected; it should have 1 incoming edge in MODEL relative_to graph.
+(2024-12-14T09:46:47.958327198) (2024-12-14T09:46:47.958330902) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph error, Vertex with name [soldador::joint_4] is disconnected; it should have 1 incoming edge in MODEL relative_to graph.
+(2024-12-14T09:46:47.958356439) (2024-12-14T09:46:47.958360126) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph error, Vertex with name [soldador::joint_5] is disconnected; it should have 1 incoming edge in MODEL relative_to graph.
+(2024-12-14T09:46:47.958385298) (2024-12-14T09:46:47.958389097) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph error, Vertex with name [soldador::joint_6] is disconnected; it should have 1 incoming edge in MODEL relative_to graph.
+(2024-12-14T09:46:47.958414532) (2024-12-14T09:46:47.958418224) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph error, Vertex with name [soldador::joint_7] is disconnected; it should have 1 incoming edge in MODEL relative_to graph.
+(2024-12-14T09:46:47.958443808) (2024-12-14T09:46:47.958447514) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph error, Vertex with name [soldador::joint_8] is disconnected; it should have 1 incoming edge in MODEL relative_to graph.
+(2024-12-14T09:46:47.958483523) (2024-12-14T09:46:47.958487409) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph error, Vertex with name [soldador::joint_9] is disconnected; it should have 1 incoming edge in MODEL relative_to graph.
+(2024-12-14T09:46:47.958513211) (2024-12-14T09:46:47.958516885) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph error, Vertex with name [soldador::joint_10] is disconnected; it should have 1 incoming edge in MODEL relative_to graph.
+(2024-12-14T09:46:47.958542642) (2024-12-14T09:46:47.958546427) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph error, Vertex with name [soldador::joint_11] is disconnected; it should have 1 incoming edge in MODEL relative_to graph.
+(2024-12-14T09:46:47.958584783) (2024-12-14T09:46:47.958592452) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph error, Vertex with name [soldador::joint_13] is disconnected; it should have 1 incoming edge in MODEL relative_to graph.
+(2024-12-14T09:46:47.958629539) (2024-12-14T09:46:47.958635510) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph error, Vertex with name [soldador::joint_14] is disconnected; it should have 1 incoming edge in MODEL relative_to graph.
+(2024-12-14T09:46:47.958679424) (2024-12-14T09:46:47.958686124) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph error, Vertex with name [soldador::joint_15] is disconnected; it should have 1 incoming edge in MODEL relative_to graph.
+(2024-12-14T09:46:47.958731113) (2024-12-14T09:46:47.958738155) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [18].
+(2024-12-14T09:46:47.958780158) (2024-12-14T09:46:47.958784251) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [16].
+(2024-12-14T09:46:47.958817826) (2024-12-14T09:46:47.958829198) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [8].
+(2024-12-14T09:46:47.958861409) (2024-12-14T09:46:47.958865268) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [10].
+(2024-12-14T09:46:47.958891049) (2024-12-14T09:46:47.958894735) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [12].
+(2024-12-14T09:46:47.958922183) (2024-12-14T09:46:47.958928128) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [14].
+(2024-12-14T09:46:47.958956466) (2024-12-14T09:46:47.958960276) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [6].
+(2024-12-14T09:46:47.958985829) (2024-12-14T09:46:47.958989480) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [28].
+(2024-12-14T09:46:47.959014674) (2024-12-14T09:46:47.959019487) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [3].
+(2024-12-14T09:46:47.959057168) (2024-12-14T09:46:47.959060955) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [19].
+(2024-12-14T09:46:47.959099825) (2024-12-14T09:46:47.959103610) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [21].
+(2024-12-14T09:46:47.959142594) (2024-12-14T09:46:47.959149325) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [23].
+(2024-12-14T09:46:47.959193819) (2024-12-14T09:46:47.959198419) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [25].
+(2024-12-14T09:46:47.959235740) (2024-12-14T09:46:47.959242049) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [27].
+(2024-12-14T09:46:47.959274897) (2024-12-14T09:46:47.959279687) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [5].
+(2024-12-14T09:46:47.959319721) (2024-12-14T09:46:47.959326818) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [7].
+(2024-12-14T09:46:47.959358040) (2024-12-14T09:46:47.959361759) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [9].
+(2024-12-14T09:46:47.959404319) (2024-12-14T09:46:47.959410604) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [11].
+(2024-12-14T09:46:47.959442454) (2024-12-14T09:46:47.959449790) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [13].
+(2024-12-14T09:46:47.959503521) (2024-12-14T09:46:47.959507325) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [15].
+(2024-12-14T09:46:47.959547251) (2024-12-14T09:46:47.959552755) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [17].
+(2024-12-14T09:46:47.959592894) (2024-12-14T09:46:47.959598880) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [4].
+(2024-12-14T09:46:47.959633921) (2024-12-14T09:46:47.959639600) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [20].
+(2024-12-14T09:46:47.959669520) (2024-12-14T09:46:47.959673236) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [26].
+(2024-12-14T09:46:47.959698335) (2024-12-14T09:46:47.959701967) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [22].
+(2024-12-14T09:46:47.959727464) (2024-12-14T09:46:47.959731110) [Err] [UserCommands.cc:1138] Error Code 27: Msg: PoseRelativeToGraph unable to find path to source vertex when starting from vertex with id [24].
+(2024-12-14T09:46:47.976552027) (2024-12-14T09:46:47.976564893) [Msg] Serving scene information on [/world/empty/scene/info]
+(2024-12-14T09:46:47.976676400) (2024-12-14T09:46:47.976682856) [Msg] Serving graph information on [/world/empty/scene/graph]
+(2024-12-14T09:46:47.976875094) (2024-12-14T09:46:47.976881575) [Msg] Serving full state on [/world/empty/state]
+(2024-12-14T09:46:47.976970240) (2024-12-14T09:46:47.976977052) [Msg] Serving full state (async) on [/world/empty/state_async]
+(2024-12-14T09:46:47.977080300) (2024-12-14T09:46:47.977087388) [Msg] Publishing scene information on [/world/empty/scene/info]
+(2024-12-14T09:46:47.977207721) (2024-12-14T09:46:47.977212503) [Msg] Publishing entity deletions on [/world/empty/scene/deletion]
+(2024-12-14T09:46:47.977283757) (2024-12-14T09:46:47.977290681) [Msg] Publishing state changes on [/world/empty/state]
+(2024-12-14T09:46:47.977386980) (2024-12-14T09:46:47.977393222) [Msg] Publishing pose messages on [/world/empty/pose/info]
+(2024-12-14T09:46:47.977491844) (2024-12-14T09:46:47.977497632) [Msg] Publishing dynamic pose messages on [/world/empty/dynamic_pose/info]
+(2024-12-14T09:46:47.977885714) (2024-12-14T09:46:47.977891925) [Dbg] [EntityComponentManager.cc:1623] Updated state thread iterators: 8 threads processing around 2 entities each.
+(2024-12-14T09:46:47.978487594) (2024-12-14T09:46:47.978496108) [Wrn] [Component.hh:144] Trying to serialize component with data type [N3sdf3v125WorldE], which doesn't have `operator<<`. Component will not be serialized.
+(2024-12-14T09:49:38.154090678) (2024-12-14T09:49:38.154102626) [Dbg] [SignalHandler.cc:141] Received signal[2].
+(2024-12-14T09:49:38.154141494) (2024-12-14T09:49:38.154146750) [Dbg] [ServerPrivate.cc:110] Server received signal[2]
+(2024-12-14T09:49:38.154513213) (2024-12-14T09:49:38.154519157) [Dbg] [gz.cc:410] Shutting down ign-gazebo-server
+((2024-12-14T09:49:38.156864472) () (2024-12-14T09:49:38.156876937) 2024-12-14T09:49:38.156888483) Exiting postupdate worker thread (00[Dbg] [SimulationRunner.cc:523] )Exiting postupdate worker thread (1))

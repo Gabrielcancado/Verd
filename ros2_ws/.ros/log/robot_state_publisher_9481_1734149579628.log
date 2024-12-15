@@ -1,0 +1,13 @@
+[INFO] [1734149579.697989126] [robot_state_publisher]: got segment base
+[INFO] [1734149579.698120298] [robot_state_publisher]: got segment bucha1
+[INFO] [1734149579.698133209] [robot_state_publisher]: got segment bucha2
+[INFO] [1734149579.698141127] [robot_state_publisher]: got segment engrenagem1.1
+[INFO] [1734149579.698148687] [robot_state_publisher]: got segment engrenagem1.2
+[INFO] [1734149579.698155509] [robot_state_publisher]: got segment engrenagem2
+[INFO] [1734149579.698162465] [robot_state_publisher]: got segment estrutura1
+[INFO] [1734149579.698169612] [robot_state_publisher]: got segment estrutura2
+[INFO] [1734149579.698176302] [robot_state_publisher]: got segment motor1.1
+[INFO] [1734149579.698182868] [robot_state_publisher]: got segment motor1.2
+[INFO] [1734149579.698189914] [robot_state_publisher]: got segment tampa_link2
+[INFO] [1734149579.698197089] [robot_state_publisher]: got segment world
+[INFO] [1734149594.272853048] [rclcpp]: signal_handler(signum=2)

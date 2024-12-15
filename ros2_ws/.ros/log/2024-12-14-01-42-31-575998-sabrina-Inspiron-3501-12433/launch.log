@@ -1,0 +1,17 @@
+1734151351.5766189 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-01-42-31-575998-sabrina-Inspiron-3501-12433
+1734151351.5767395 [INFO] [launch]: Default logging verbosity is set to INFO
+1734151351.6716011 [INFO] [robot_state_publisher-1]: process started with pid [12434]
+1734151351.6718330 [INFO] [joint_state_publisher-2]: process started with pid [12436]
+1734151351.6719518 [INFO] [joint_state_publisher_gui-3]: process started with pid [12438]
+1734151351.6720455 [INFO] [rviz2-4]: process started with pid [12440]
+1734151351.9875791 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734151351.9880133 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734151351.9997828 [joint_state_publisher-2] [INFO] [1734151351.999435503] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734151352.0473216 [joint_state_publisher_gui-3] [INFO] [1734151352.046915940] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734151352.0624964 [joint_state_publisher_gui-3] [INFO] [1734151352.062125819] [joint_state_publisher_gui]: Centering
+1734151352.1353793 [joint_state_publisher_gui-3] [INFO] [1734151352.135030202] [joint_state_publisher_gui]: Centering
+1734151392.4414122 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734151392.4520638 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 12438, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734151392.5514405 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 12434]
+1734151392.5896320 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 12436]
+1734151392.6469815 [INFO] [rviz2-4]: process has finished cleanly [pid 12440]

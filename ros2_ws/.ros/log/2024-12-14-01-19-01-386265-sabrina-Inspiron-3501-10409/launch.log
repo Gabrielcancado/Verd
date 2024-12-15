@@ -1,0 +1,17 @@
+1734149941.3871932 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-01-19-01-386265-sabrina-Inspiron-3501-10409
+1734149941.3874269 [INFO] [launch]: Default logging verbosity is set to INFO
+1734149941.4876165 [INFO] [robot_state_publisher-1]: process started with pid [10410]
+1734149941.4879811 [INFO] [joint_state_publisher-2]: process started with pid [10412]
+1734149941.4883344 [INFO] [joint_state_publisher_gui-3]: process started with pid [10414]
+1734149941.4884782 [INFO] [rviz2-4]: process started with pid [10416]
+1734149941.8296330 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734149941.8300250 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734149941.8446000 [joint_state_publisher-2] [INFO] [1734149941.844290797] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734149941.9007001 [joint_state_publisher_gui-3] [INFO] [1734149941.900437784] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734149941.9094992 [joint_state_publisher_gui-3] [INFO] [1734149941.909205782] [joint_state_publisher_gui]: Centering
+1734149941.9795902 [joint_state_publisher_gui-3] [INFO] [1734149941.979251826] [joint_state_publisher_gui]: Centering
+1734149964.1888807 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734149964.2028427 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 10414, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734149964.3024881 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 10410]
+1734149964.3382969 [INFO] [rviz2-4]: process has finished cleanly [pid 10416]
+1734149964.3441126 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 10412]

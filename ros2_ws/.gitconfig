@@ -1,0 +1,5 @@
+[user]
+	name = sabrina
+	email = sabrinaseba18@gmail.com
+[credential]
+	helper = "!f() { /home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/node /tmp/vscode-remote-containers-6ddb9543-a679-4e26-bb00-ef230e71bf77.js git-credential-helper $*; }; f"

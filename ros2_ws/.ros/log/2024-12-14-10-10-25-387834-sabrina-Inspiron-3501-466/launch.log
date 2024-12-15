@@ -1,0 +1,25 @@
+1734181825.3883476 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-10-10-25-387834-sabrina-Inspiron-3501-466
+1734181825.3884704 [INFO] [launch]: Default logging verbosity is set to INFO
+1734181825.4998801 [INFO] [robot_state_publisher-1]: process started with pid [467]
+1734181825.5003433 [INFO] [joint_state_publisher-2]: process started with pid [469]
+1734181825.5004857 [INFO] [joint_state_publisher_gui-3]: process started with pid [471]
+1734181825.5005853 [INFO] [rviz2-4]: process started with pid [473]
+1734181825.8184171 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734181825.8189604 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734181825.8686841 [joint_state_publisher-2] [INFO] [1734181825.868368923] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734181825.8761957 [joint_state_publisher_gui-3] [INFO] [1734181825.875840043] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734181825.8869221 [joint_state_publisher_gui-3] [INFO] [1734181825.886690130] [joint_state_publisher_gui]: Centering
+1734181825.9582024 [joint_state_publisher_gui-3] [INFO] [1734181825.957954928] [joint_state_publisher_gui]: Centering
+1734181840.5685794 [joint_state_publisher_gui-3] [INFO] [1734181840.568038044] [joint_state_publisher_gui]: Randomizing
+1734181841.4833391 [joint_state_publisher_gui-3] [INFO] [1734181841.482879410] [joint_state_publisher_gui]: Randomizing
+1734181842.5680349 [joint_state_publisher_gui-3] [INFO] [1734181842.567601323] [joint_state_publisher_gui]: Centering
+1734181843.9235206 [joint_state_publisher_gui-3] [INFO] [1734181843.923254431] [joint_state_publisher_gui]: Centering
+1734181844.0816536 [joint_state_publisher_gui-3] [INFO] [1734181844.081392738] [joint_state_publisher_gui]: Centering
+1734181844.2597702 [joint_state_publisher_gui-3] [INFO] [1734181844.259390843] [joint_state_publisher_gui]: Centering
+1734181844.4230497 [joint_state_publisher_gui-3] [INFO] [1734181844.422767454] [joint_state_publisher_gui]: Centering
+1734181844.6038141 [joint_state_publisher_gui-3] [INFO] [1734181844.603311209] [joint_state_publisher_gui]: Centering
+1734181847.4870017 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734181847.5023837 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 471, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734181847.6027102 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 467]
+1734181847.6312139 [INFO] [rviz2-4]: process has finished cleanly [pid 473]
+1734181847.6452186 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 469]

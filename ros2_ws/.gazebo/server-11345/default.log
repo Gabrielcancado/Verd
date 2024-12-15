@@ -1,0 +1,18 @@
+Gazebo multi-robot simulator, version 11.10.2
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1734198561 259097684) [Msg] Waiting for master.
+(1734198561 263949602) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1734198561 263968887) [Msg] Publicized address: 192.168.1.51
+(1734198561 390307188) [Err] [Server.cc:472] Could not open file[]
+(1734198561 393377579) [Wrn] [Server.cc:381] Falling back on worlds/empty.world
+(1734198561 465254253) [Msg] Loading world file [/usr/share/gazebo-11/worlds/empty.world]
+(1734198561 517329239) [Err] [OpenAL.cc:84] Unable to open audio device[default]
+ Audio will be disabled.
+(1734198561 724440459) Init world[default]
+(1734198561 753586808) [Err] [Model.cc:123] Error Code 23 Msg: FrameAttachedToGraph error, Non-LINK vertex with name [__model__] is disconnected; it should have 1 outgoing edge in MODEL attached_to graph.
+(1734198561 753601749) [Err] [Model.cc:123] Error Code 23 Msg: Graph with __model__ scope has sink vertex named [__model__] when starting from vertex with name [__model__], which is not permitted.
+(1734198561 753951013) [Err] [Plugin.hh:212] Failed to load plugin libgazebo_ros2_control.so: libgazebo_ros2_control.so: cannot open shared object file: No such file or directory

@@ -1,0 +1,5 @@
+[INFO] [1734125978.000401235] [robot_state_publisher]: got segment base
+[INFO] [1734125978.000512090] [robot_state_publisher]: got segment estrutura1
+[INFO] [1734125978.000522412] [robot_state_publisher]: got segment motor1
+[INFO] [1734125978.000529904] [robot_state_publisher]: got segment world
+[INFO] [1734126000.040274021] [rclcpp]: signal_handler(signum=2)

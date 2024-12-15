@@ -1,0 +1,17 @@
+1734152706.4298267 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-14-02-05-06-429293-sabrina-Inspiron-3501-15303
+1734152706.4299402 [INFO] [launch]: Default logging verbosity is set to INFO
+1734152706.5256352 [INFO] [robot_state_publisher-1]: process started with pid [15304]
+1734152706.5258563 [INFO] [joint_state_publisher-2]: process started with pid [15306]
+1734152706.5259745 [INFO] [joint_state_publisher_gui-3]: process started with pid [15308]
+1734152706.5260658 [INFO] [rviz2-4]: process started with pid [15310]
+1734152706.8373790 [joint_state_publisher-2] [INFO] [1734152706.837059575] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734152706.8760605 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734152706.8764939 [joint_state_publisher_gui-3] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734152706.9347503 [joint_state_publisher_gui-3] [INFO] [1734152706.934472247] [joint_state_publisher_gui]: Waiting for robot_description to be published on the robot_description topic...
+1734152706.9453716 [joint_state_publisher_gui-3] [INFO] [1734152706.945093715] [joint_state_publisher_gui]: Centering
+1734152707.0090396 [joint_state_publisher_gui-3] [INFO] [1734152707.008725881] [joint_state_publisher_gui]: Centering
+1734152774.0048466 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734152774.0216589 [ERROR] [joint_state_publisher_gui-3]: process has died [pid 15308, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args -r __node:=joint_state_publisher_gui'].
+1734152774.1190321 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 15304]
+1734152774.1457050 [INFO] [rviz2-4]: process has finished cleanly [pid 15310]
+1734152774.1577485 [INFO] [joint_state_publisher-2]: process has finished cleanly [pid 15306]
