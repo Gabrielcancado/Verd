@@ -1,19 +1,3 @@
-ros2 launch robot_description display.launch.py 
-colcon build
-source install/setup.bash
-ros2 launch robot_description display.launch.py 
-colcon build
-source install/setup.bash
-ros2 launch robot_description display.launch.py 
-colcon build
-source install/setup.bash
-ros2 launch robot_description display.launch.py 
-colcon build
-source install/setup.bash
-ros2 launch robot_description display.launch.py 
-colcon build
-source install/setup.bash
-ros2 launch robot_description display.launch.py 
 colcon build
 source install/setup.bash
 ros2 launch robot_description display.launch.py 
@@ -497,4 +481,20 @@ source install/setup.bash
 clear
 ros2 launch manipulator3 display.launch.py 
 clear
+exit
+colcon build
+cd src/manipulator3/
+ls
+colcon build
+source install/setup.bash 
+clear
+ros2 launch manipulator3 display.py 
+ros2 launch manipulator3 display.launch.py 
+ros2 launch manipulator3 display.launch.py 
+colcon build
+source install/setup.bash 
+ros2 launch manipulator3 display.launch.py 
+clear
+exit
+ls
 exit

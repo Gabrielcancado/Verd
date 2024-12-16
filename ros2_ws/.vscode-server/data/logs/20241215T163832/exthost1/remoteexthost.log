@@ -1,0 +1,23 @@
+2024-12-15 16:38:34.214 [info] Extension host with pid 363 started
+2024-12-15 16:38:34.214 [error] Error: EEXIST: file already exists, open '/home/ros2_ws/.vscode-server/data/User/workspaceStorage/564bf516cc71c5787500cc866f62f92d/vscode.lock'
+2024-12-15 16:38:34.237 [info] Lock '/home/ros2_ws/.vscode-server/data/User/workspaceStorage/564bf516cc71c5787500cc866f62f92d/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-12-15 16:38:34.240 [info] Lock '/home/ros2_ws/.vscode-server/data/User/workspaceStorage/564bf516cc71c5787500cc866f62f92d/vscode.lock': The pid 593 appears to be gone.
+2024-12-15 16:38:34.240 [info] Lock '/home/ros2_ws/.vscode-server/data/User/workspaceStorage/564bf516cc71c5787500cc866f62f92d/vscode.lock': Deleting a stale lock.
+2024-12-15 16:38:34.265 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-15 16:38:34.270 [info] Lock '/home/ros2_ws/.vscode-server/data/User/workspaceStorage/564bf516cc71c5787500cc866f62f92d/vscode.lock': Lock acquired.
+2024-12-15 16:38:34.461 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-15 16:38:34.630 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-15 16:38:34.630 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-15 16:38:34.896 [info] Eager extensions activated
+2024-12-15 16:38:34.897 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-15 16:38:34.897 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-15 16:40:09.459 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-12-15 16:40:09.714 [warning] Using default string since no string found in i18n bundle that has the key: Source map support is enabled in the Python Extension, this will adversely impact performance of the extension.
+2024-12-15 16:40:09.714 [warning] Using default string since no string found in i18n bundle that has the key: Disable Source Map Support
+2024-12-15 16:40:09.714 [warning] Using default string since no string found in i18n bundle that has the key: Enabling source map support in the Python Extension will adversely impact performance of the extension.
+2024-12-15 16:40:09.714 [warning] Using default string since no string found in i18n bundle that has the key: Enable and reload Window.
+2024-12-15 16:40:09.903 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-12-15 16:40:09.903 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-12-15 16:41:22.431 [info] Extension host terminating: received terminate message from renderer
+2024-12-15 16:41:22.431 [info] Lock '/home/ros2_ws/.vscode-server/data/User/workspaceStorage/564bf516cc71c5787500cc866f62f92d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-12-15 16:41:22.474 [info] Extension host with pid 363 exiting with code 0

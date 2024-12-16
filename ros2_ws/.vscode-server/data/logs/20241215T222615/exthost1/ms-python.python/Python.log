@@ -1,0 +1,12 @@
+2024-12-15 22:26:17.973 [info] O experimento 'pythonRecommendTensorboardExt' está ativo
+2024-12-15 22:26:17.973 [info] O experimento 'pythonTerminalEnvVarActivation' está ativo
+2024-12-15 22:26:17.973 [info] O experimento 'pythonTestAdapter' está ativo
+2024-12-15 22:26:17.973 [warning] Dir "/home/ros2_ws/.pixi/envs" is not watchable (directory does not exist)
+2024-12-15 22:26:18.366 [info] Caminho do interpretador Python: /bin/python3
+2024-12-15 22:26:18.596 [info] > pyenv which python
+2024-12-15 22:26:18.596 [info] cwd: .
+2024-12-15 22:26:19.752 [info] Iniciando servidor de idiomas Pylance.
+2024-12-15 22:41:37.132 [info] Discover tests for workspace name: ros2_ws - uri: /home/ros2_ws/src/manipulator3/launch/display.launch.py
+2024-12-15 22:42:37.729 [info] Discover tests for workspace name: ros2_ws - uri: /home/ros2_ws/src/manipulator3/launch/joint_publisher.py
+2024-12-15 22:42:38.392 [info] Discover tests for workspace name: ros2_ws - uri: /home/ros2_ws/src/manipulator3/launch/joint_publisher.py
+2024-12-15 22:44:48.779 [info] Discover tests for workspace name: ros2_ws - uri: /home/ros2_ws/src/manipulator3/launch/endeffector_calculator.py

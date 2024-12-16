@@ -1,0 +1,10 @@
+1734291635.7620444 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-15-16-40-35-760725-gabriel-550XDA-2625
+1734291635.7621624 [INFO] [launch]: Default logging verbosity is set to INFO
+1734291635.9140866 [INFO] [robot_state_publisher-1]: process started with pid [2633]
+1734291635.9142363 [INFO] [joint_state_publisher_gui-2]: process started with pid [2635]
+1734291635.9143019 [INFO] [rviz2-3]: process started with pid [2637]
+1734291636.2102840 [joint_state_publisher_gui-2] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734291636.2106819 [joint_state_publisher_gui-2] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734291636.2716534 [joint_state_publisher_gui-2] [INFO] [1734291636.271122463] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734291636.2856641 [joint_state_publisher_gui-2] [INFO] [1734291636.285224496] [joint_state_publisher]: Centering
+1734291636.3623981 [joint_state_publisher_gui-2] [INFO] [1734291636.362115497] [joint_state_publisher]: Centering

@@ -1,0 +1,52 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Found rviz2: 11.2.14 (/opt/ros/humble/share/rviz2/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros2_ws/build/manipulator3
+-- Install configuration: ""
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/launch
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/launch/endeffector_calculator.py
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/launch/joint_publisher.py
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/launch/gazebo.launch.py
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/launch/display.launch.py
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/urdf
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/urdf/cores.xacro
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/urdf/manipulator3.urdf.xacro
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/urdf/manipulator3_gazebo.xacro
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/config
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/meshes
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/meshes/vertical2.stl
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/meshes/endeffec.stl
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/meshes/redonda.stl
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/meshes/vertical1.stl
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/meshes/horizontal1.stl
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/meshes/horizontal2.stl
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/rviz2
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/rviz2/display.rviz
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/ament_index/resource_index/package_run_dependencies/manipulator3
+-- Installing: /home/ros2_ws/install/manipulator3/share/ament_index/resource_index/parent_prefix_path/manipulator3
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/environment/ament_prefix_path.sh
+-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/environment/path.sh
+-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/environment/path.dsv
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/local_setup.bash
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/local_setup.sh
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/local_setup.zsh
+-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/local_setup.dsv
+-- Installing: /home/ros2_ws/install/manipulator3/share/manipulator3/package.dsv
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/ament_index/resource_index/packages/manipulator3
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/cmake/manipulator3Config.cmake
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/cmake/manipulator3Config-version.cmake
+-- Up-to-date: /home/ros2_ws/install/manipulator3/share/manipulator3/package.xml

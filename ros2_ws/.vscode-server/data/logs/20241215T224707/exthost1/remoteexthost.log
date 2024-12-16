@@ -1,0 +1,24 @@
+2024-12-15 22:47:09.189 [info] Extension host with pid 368 started
+2024-12-15 22:47:09.189 [error] Error: EEXIST: file already exists, open '/home/ros2_ws/.vscode-server/data/User/workspaceStorage/564bf516cc71c5787500cc866f62f92d/vscode.lock'
+2024-12-15 22:47:09.191 [info] Lock '/home/ros2_ws/.vscode-server/data/User/workspaceStorage/564bf516cc71c5787500cc866f62f92d/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-12-15 22:47:09.195 [info] Lock '/home/ros2_ws/.vscode-server/data/User/workspaceStorage/564bf516cc71c5787500cc866f62f92d/vscode.lock': The pid 393 appears to be gone.
+2024-12-15 22:47:09.195 [info] Lock '/home/ros2_ws/.vscode-server/data/User/workspaceStorage/564bf516cc71c5787500cc866f62f92d/vscode.lock': Deleting a stale lock.
+2024-12-15 22:47:09.204 [info] Lock '/home/ros2_ws/.vscode-server/data/User/workspaceStorage/564bf516cc71c5787500cc866f62f92d/vscode.lock': Lock acquired.
+2024-12-15 22:47:09.475 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-15 22:47:09.476 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-12-15 22:47:09.836 [warning] Using default string since no string found in i18n bundle that has the key: Source map support is enabled in the Python Extension, this will adversely impact performance of the extension.
+2024-12-15 22:47:09.837 [warning] Using default string since no string found in i18n bundle that has the key: Disable Source Map Support
+2024-12-15 22:47:09.837 [warning] Using default string since no string found in i18n bundle that has the key: Enabling source map support in the Python Extension will adversely impact performance of the extension.
+2024-12-15 22:47:09.837 [warning] Using default string since no string found in i18n bundle that has the key: Enable and reload Window.
+2024-12-15 22:47:10.061 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-12-15 22:47:10.062 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-12-15 22:47:10.622 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-15 22:47:10.734 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-15 22:47:10.735 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-15 22:47:11.092 [info] Eager extensions activated
+2024-12-15 22:47:11.092 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-15 22:47:11.092 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-15 22:48:52.502 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-12-15 22:48:57.787 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-12-15 22:48:57.787 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-12-15 22:48:57.788 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'

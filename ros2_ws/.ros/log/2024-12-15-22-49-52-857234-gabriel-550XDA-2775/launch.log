@@ -1,0 +1,3 @@
+1734313792.8578300 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-15-22-49-52-857234-gabriel-550XDA-2775
+1734313792.8579280 [INFO] [launch]: Default logging verbosity is set to INFO
+1734313793.0076468 [ERROR] [launch]: Caught exception in launch (see debug for traceback): package 'manipulator3' found at '/home/ros2_ws/install/manipulator3', but libexec directory '/home/ros2_ws/install/manipulator3/lib/manipulator3' does not exist

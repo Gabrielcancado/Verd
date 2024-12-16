@@ -1,0 +1,31 @@
+2024-12-15 22:26:15.170 [info] 
+
+
+
+
+2024-12-15 22:26:15.186 [info] Extension host agent started.
+2024-12-15 22:26:15.224 [debug] No uninstalled extensions found.
+2024-12-15 22:26:15.240 [info] [127.0.0.1][8a94becb][ManagementConnection] New connection established.
+2024-12-15 22:26:15.277 [info] Log level changed to info
+2024-12-15 22:26:15.566 [info] [127.0.0.1][a06f29df][ExtensionHostConnection] New connection established.
+2024-12-15 22:26:15.916 [info] [127.0.0.1][a06f29df][ExtensionHostConnection] <393> Launched Extension Host Process.
+2024-12-15 22:26:18.800 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST read ECONNRESET
+2024-12-15 22:26:21.490 [info] Getting Manifest... ms-ceintl.vscode-language-pack-pt-br
+2024-12-15 22:26:21.491 [info] Getting Manifest... ms-ceintl.vscode-language-pack-pt-br
+2024-12-15 22:26:21.969 [info] Installing extension: ms-ceintl.vscode-language-pack-pt-br {"productVersion":{"version":"1.96.0","date":"2024-12-11T02:29:09.626Z"},"pinned":false,"operation":3,"isApplicationScoped":true,"context":{"clientTargetPlatform":"linux-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/ros2_ws/.vscode-server/extensions/extensions.json","external":"file:///home/ros2_ws/.vscode-server/extensions/extensions.json","path":"/home/ros2_ws/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-12-15 22:26:21.978 [info] Extension is already requested to install ms-ceintl.vscode-language-pack-pt-br file:///home/ros2_ws/.vscode-server/extensions/extensions.json
+2024-12-15 22:26:24.036 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-pt-br: Success. Executed: true. Duration: 882ms.
+2024-12-15 22:26:24.082 [info] Extracted extension to file:///home/ros2_ws/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.96.2024121109: ms-ceintl.vscode-language-pack-pt-br
+2024-12-15 22:26:24.087 [info] Renamed to /home/ros2_ws/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.96.2024121109
+2024-12-15 22:26:24.093 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-pt-br-1.95.2024110721
+2024-12-15 22:26:24.096 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-pt-br
+2024-12-15 22:26:24.112 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-pt-br file:///home/ros2_ws/.vscode-server/extensions/extensions.json
+2024-12-15 22:26:25.611 [info] Downloaded extension to file:///home/ros2_ws/.vscode-server/extensionsCache/d6f295a0-c968-4410-b22c-0478a8049e38
+2024-12-15 22:26:25.612 [info] Installing extension: ms-ceintl.vscode-language-pack-pt-br {"productVersion":{"version":"1.96.0","date":"2024-12-11T02:29:09.626Z"},"pinned":false,"operation":3,"isApplicationScoped":true,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"profileLocation":{"$mid":1,"fsPath":"/home/ros2_ws/.vscode-server/extensions/extensions.json","external":"file:///home/ros2_ws/.vscode-server/extensions/extensions.json","path":"/home/ros2_ws/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-12-15 22:26:25.612 [info] Installing the extension without checking dependencies and pack ms-ceintl.vscode-language-pack-pt-br
+2024-12-15 22:26:25.617 [info] Deleted existing extension from disk ms-ceintl.vscode-language-pack-pt-br /home/ros2_ws/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.96.2024121109
+2024-12-15 22:26:25.644 [info] Extracted extension to file:///home/ros2_ws/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.96.2024121109: ms-ceintl.vscode-language-pack-pt-br
+2024-12-15 22:26:25.647 [info] Renamed to /home/ros2_ws/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.96.2024121109
+2024-12-15 22:26:25.654 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-pt-br
+2024-12-15 22:26:25.666 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-pt-br file:///home/ros2_ws/.vscode-server/extensions/extensions.json
+2024-12-15 22:26:36.052 [error] [network] #9: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST AggregateError [ETIMEDOUT]: 

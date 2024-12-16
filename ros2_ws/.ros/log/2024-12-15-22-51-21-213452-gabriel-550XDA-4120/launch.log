@@ -1,0 +1,18 @@
+1734313881.2140572 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-15-22-51-21-213452-gabriel-550XDA-4120
+1734313881.2141602 [INFO] [launch]: Default logging verbosity is set to INFO
+1734313881.3517976 [INFO] [robot_state_publisher-1]: process started with pid [4132]
+1734313881.3519568 [INFO] [joint_state_publisher_gui-2]: process started with pid [4134]
+1734313881.3520417 [INFO] [rviz2-3]: process started with pid [4136]
+1734313881.6520312 [joint_state_publisher_gui-2] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734313881.6525457 [joint_state_publisher_gui-2] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734313881.7238805 [joint_state_publisher_gui-2] [INFO] [1734313881.723503794] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734313881.7340231 [joint_state_publisher_gui-2] [INFO] [1734313881.733796322] [joint_state_publisher]: Centering
+1734313881.8266172 [joint_state_publisher_gui-2] [INFO] [1734313881.826235361] [joint_state_publisher]: Centering
+1734313883.6834934 [joint_state_publisher_gui-2] [INFO] [1734313883.682659859] [joint_state_publisher]: Centering
+1734314169.1078863 [joint_state_publisher_gui-2] [INFO] [1734314169.107368608] [joint_state_publisher]: Centering
+1734314204.8055446 [joint_state_publisher_gui-2] [INFO] [1734314204.805318298] [joint_state_publisher]: Centering
+1734314232.8889041 [joint_state_publisher_gui-2] [INFO] [1734314232.888500213] [joint_state_publisher]: Centering
+1734314276.0996816 [INFO] [joint_state_publisher_gui-2]: process has finished cleanly [pid 4134]
+1734314278.5680976 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734314278.6783223 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 4132]
+1734314278.7782300 [INFO] [rviz2-3]: process has finished cleanly [pid 4136]

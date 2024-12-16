@@ -2,4 +2,4 @@
 	name = gabriel
 	email = gabrielcancado@usp.br
 [credential]
-	helper = "!f() { /home/ros2_ws/.vscode-server/bin/65edc4939843c90c34d61f4ce11704f09d3e5cb6/node /tmp/vscode-remote-containers-c6c06a7f-5217-44dc-b8af-0e599196a867.js git-credential-helper $*; }; f"
+	helper = "!f() { /home/ros2_ws/.vscode-server/bin/138f619c86f1199955d53b4166bef66ef252935c/node /tmp/vscode-remote-containers-fd4cbcfc-52e8-400a-bfda-950c0db3d7e1.js git-credential-helper $*; }; f"

@@ -1,8 +1,0 @@
-2024-12-15 02:06:58.382 [info] O experimento 'pythonRecommendTensorboardExt' está ativo
-2024-12-15 02:06:58.382 [info] O experimento 'pythonTerminalEnvVarActivation' está ativo
-2024-12-15 02:06:58.382 [info] O experimento 'pythonTestAdapter' está ativo
-2024-12-15 02:06:58.382 [warning] Dir "/home/ros2_ws/src/.pixi/envs" is not watchable (directory does not exist)
-2024-12-15 02:06:58.382 [info] Caminho do interpretador Python: /bin/python3
-2024-12-15 02:06:58.415 [info] > pyenv which python
-2024-12-15 02:06:58.415 [info] cwd: .
-2024-12-15 02:07:08.898 [info] Iniciando servidor de idiomas Pylance.

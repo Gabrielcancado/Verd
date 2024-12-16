@@ -1,0 +1,24 @@
+2024-12-15 22:47:11.429 [info] [Info  - 10:47:11 PM] (551) Server root directory: file:///home/ros2_ws/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-15 22:47:11.432 [info] [Info  - 10:47:11 PM] (551) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2024-12-15 22:47:11.432 [info] [Info  - 10:47:11 PM] (551) Starting service instance "ros2_ws"
+2024-12-15 22:47:11.463 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.22.0)
+2024-12-15 22:47:11.519 [info] [Info  - 10:47:11 PM] (551) Setting environmentName for service "ros2_ws": "3.10.12 (global)"
+2024-12-15 22:47:11.520 [info] [Info  - 10:47:11 PM] (551) Setting pythonPath for service "ros2_ws": "/bin/python3"
+2024-12-15 22:47:11.520 [info] [Info  - 10:47:11 PM] (551) No include entries specified; assuming /home/ros2_ws
+2024-12-15 22:47:11.521 [info] [Info  - 10:47:11 PM] (551) Auto-excluding **/node_modules
+2024-12-15 22:47:11.521 [info] [Info  - 10:47:11 PM] (551) Auto-excluding **/__pycache__
+2024-12-15 22:47:11.521 [info] [Info  - 10:47:11 PM] (551) Auto-excluding **/.*
+2024-12-15 22:47:11.556 [info] [Info  - 10:47:11 PM] (551) Assuming Python version 3.10.12.final.0
+2024-12-15 22:47:11.745 [info] [Info  - 10:47:11 PM] (551) Found 14 source files
+2024-12-15 22:47:12.185 [info] [Info  - 10:47:12 PM] (551) Background analysis(1) root directory: file:///home/ros2_ws/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-15 22:47:12.187 [info] [Info  - 10:47:12 PM] (551) Background analysis(1) started
+2024-12-15 22:47:12.365 [info] [Info  - 10:47:12 PM] (551) Indexer background runner(2) root directory: file:///home/ros2_ws/.vscode-server/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2024-12-15 22:47:12.365 [info] [Info  - 10:47:12 PM] (551) Indexing(2) started
+2024-12-15 22:47:12.956 [info] [Info  - 10:47:12 PM] (551) scanned(2) 196 files over 1 exec env
+2024-12-15 22:47:13.181 [info] [Info  - 10:47:13 PM] (551) indexed(2) 196 files over 1 exec env
+2024-12-15 22:47:13.286 [info] [Info  - 10:47:13 PM] (551) Indexing finished(2).
+2024-12-15 22:48:17.927 [info] [Info  - 10:48:17 PM] (551) Found 17 source files
+2024-12-15 22:48:38.112 [info] [Info  - 10:48:38 PM] (551) Found 17 source files
+2024-12-15 22:49:44.479 [info] [Info  - 10:49:44 PM] (551) Found 17 source files
+2024-12-15 22:50:41.948 [info] [Info  - 10:50:41 PM] (551) Found 17 source files
+2024-12-15 22:51:16.469 [info] [Info  - 10:51:16 PM] (551) Found 17 source files

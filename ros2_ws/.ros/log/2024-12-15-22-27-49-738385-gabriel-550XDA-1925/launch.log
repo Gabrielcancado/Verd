@@ -1,0 +1,14 @@
+1734312469.7389910 [INFO] [launch]: All log files can be found below /home/ros2_ws/.ros/log/2024-12-15-22-27-49-738385-gabriel-550XDA-1925
+1734312469.7391059 [INFO] [launch]: Default logging verbosity is set to INFO
+1734312469.9079139 [INFO] [robot_state_publisher-1]: process started with pid [1931]
+1734312469.9080882 [INFO] [joint_state_publisher_gui-2]: process started with pid [1933]
+1734312469.9081576 [INFO] [rviz2-3]: process started with pid [1935]
+1734312470.4017107 [joint_state_publisher_gui-2] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734312470.4020054 [joint_state_publisher_gui-2] QStandardPaths: wrong permissions on runtime directory /tmp/runtime-ros2_ws, 0755 instead of 0700
+1734312470.4613509 [joint_state_publisher_gui-2] [INFO] [1734312470.461091347] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+1734312470.5010178 [joint_state_publisher_gui-2] [INFO] [1734312470.500812521] [joint_state_publisher]: Centering
+1734312470.5790505 [joint_state_publisher_gui-2] [INFO] [1734312470.578845379] [joint_state_publisher]: Centering
+1734313059.5403993 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1734313059.5499990 [ERROR] [joint_state_publisher_gui-2]: process has died [pid 1933, exit code -2, cmd '/opt/ros/humble/lib/joint_state_publisher_gui/joint_state_publisher_gui --ros-args'].
+1734313059.6504142 [INFO] [robot_state_publisher-1]: process has finished cleanly [pid 1931]
+1734313059.7982633 [INFO] [rviz2-3]: process has finished cleanly [pid 1935]

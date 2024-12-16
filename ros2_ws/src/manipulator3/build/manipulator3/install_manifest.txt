@@ -1,5 +1,5 @@
 /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/launch/gazebo.launch.py
-/home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/launch/display.py
+/home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/launch/display.launch.py
 /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/urdf/cores.xacro
 /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/urdf/manipulator3.urdf.xacro
 /home/ros2_ws/src/manipulator3/install/manipulator3/share/manipulator3/urdf/manipulator3_gazebo.xacro

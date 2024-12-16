@@ -1,0 +1,8 @@
+[INFO] [1734291591.512155766] [robot_state_publisher]: got segment endeffec
+[INFO] [1734291591.512318018] [robot_state_publisher]: got segment horizontal1
+[INFO] [1734291591.512325825] [robot_state_publisher]: got segment horizontal2
+[INFO] [1734291591.512329594] [robot_state_publisher]: got segment redonda
+[INFO] [1734291591.512333138] [robot_state_publisher]: got segment vertical1
+[INFO] [1734291591.512336584] [robot_state_publisher]: got segment vertical2
+[INFO] [1734291591.512342263] [robot_state_publisher]: got segment world
+[INFO] [1734291594.984279017] [rclcpp]: signal_handler(signum=2)

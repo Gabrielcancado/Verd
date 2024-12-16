@@ -1,0 +1,12 @@
+2024-12-15 22:47:07.685 [info] 
+
+
+
+
+2024-12-15 22:47:07.702 [info] Extension host agent started.
+2024-12-15 22:47:07.774 [debug] Removing uninstalled extensions: ["ms-ceintl.vscode-language-pack-pt-br-1.95.2024110721"]
+2024-12-15 22:47:07.838 [info] [127.0.0.1][b200b1bb][ManagementConnection] New connection established.
+2024-12-15 22:47:07.843 [info] Deleted uninstalled extension from disk ms-ceintl.vscode-language-pack-pt-br /home/ros2_ws/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.95.2024110721
+2024-12-15 22:47:07.858 [info] Log level changed to info
+2024-12-15 22:47:08.203 [info] [127.0.0.1][3b6148da][ExtensionHostConnection] New connection established.
+2024-12-15 22:47:08.205 [info] [127.0.0.1][3b6148da][ExtensionHostConnection] <368> Launched Extension Host Process.
